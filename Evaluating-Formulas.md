@@ -41,7 +41,7 @@ If you have the worksheet you can evaluate at your heart's content:
 ## Very important:
 
 *   Not all formulas are included and you'll probably get a nasty error if the formula isn't supported or if there's an error in the formula. Please test your formulas before going to production.
-*   we are adding new formulas all the time but if your formula isn't included please let me know via the Issue Tracker. I'll do my best to include the formula asap.
+*   we are adding new formulas all the time but if your formula isn't included please let us know via the Issue Tracker. we will do our  best to include the formula asap.
 
 ## Supported functions
 
