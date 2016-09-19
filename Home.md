@@ -10,7 +10,7 @@ To use ClosedXML you must reference the DocumentFormat.OpenXml.dll:
 
 # FAQ
 
-[How do I deliver an Excel file in ASP.NET?](wikipage@title=How%2520do%2520I%2520deliver%2520an%2520Excel%2520file%2520in%2520ASP.NET%253f&referringTitle=Documentation.html)
+[How do I deliver an Excel file in ASP.NET?](How-do-I-deliver-an-Excel-file-in-ASP.NET%3F)
 
 [Does it support Excel 2003 and prior formats (.xls)?](wikipage@title=Does%2520it%2520support%2520Excel%25202003%2520and%2520prior%2520formats%2520%2528.xls%2529%253f&referringTitle=Documentation.html)
 
