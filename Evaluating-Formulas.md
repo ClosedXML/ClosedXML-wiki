@@ -153,7 +153,7 @@ If you have the worksheet you can evaluate at your heart's content:
 * ce.RegisterFunction("CONCATENATE", 1, int.MaxValue, Concat); // Joins several text items into one text item
 * ce.RegisterFunction("DOLLAR", 1, 2, Dollar); // Converts a number to text, using the $ (dollar) currency format
 * ce.RegisterFunction("EXACT", 2, Exact);
-* ce.RegisterFunction("VLOOKUP", 4, Vlookup); // Looks in the first column of an array and moves across
-* ce.RegisterFunction("HLOOKUP", 4, Hlookup); // Looks in the top row of an array and returns the value of the indicated cell
+* ce.RegisterFunction("VLOOKUP", 4, Vlookup); // (new after 0.81.0) Looks in the first column of an array and moves across
+* ce.RegisterFunction("HLOOKUP", 4, Hlookup); // (new after 0.81.0)Looks in the top row of an array and returns the value of the indicated cell
 
 ```
