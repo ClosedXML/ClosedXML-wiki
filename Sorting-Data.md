@@ -1,0 +1,154 @@
+## Sorting Data
+
+```c#
+            var wb = new XLWorkbook();
+```
+
+**Sort a simple range**
+
+![SortSimple.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=229525 "SortSimple.jpg")
+
+```c#
+            var wsSimple = wb.Worksheets.Add("Simple");
+            AddTestTable(wsSimple);
+            var rangeSimple = wsSimple.RangeUsed();
+            var copySimple = rangeSimple.CopyTo(wsSimple.Column(wsSimple.LastColumnUsed().ColumnNumber() + 3));
+
+            copySimple.Sort();
+            wsSimple.Row(1).InsertRowsAbove(2);
+            wsSimple.Cell(1, 1).SetValue(".Sort() = Sort Range Top to Bottom, Ascendingly, Ignore Blanks, Ignore Case").Style.Font.SetBold();
+```
+
+**Sort a simple column**
+
+![SortSimpleColumn.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=229526 "SortSimpleColumn.jpg")
+
+```c#
+           var wsSimpleColumn = wb.Worksheets.Add("Simple Column");
+            AddTestColumn(wsSimpleColumn);
+            var rangeSimpleColumn = wsSimpleColumn.RangeUsed();
+            var copySimpleColumn = rangeSimpleColumn.CopyTo(wsSimpleColumn.Column(wsSimpleColumn.LastColumnUsed().ColumnNumber() + 3));
+            copySimpleColumn.Sort(XLSortOrder.Descending, true);
+            wsSimpleColumn.Row(1).InsertRowsAbove(2);
+            wsSimpleColumn.Cell(1, 1)
+                .SetValue(".Sort(XLSortOrder.Descending, true) = Sort Range Top to Bottom, Descendingly, Ignore Blanks, Match Case").Style.Font.SetBold();
+```
+
+**Complex Sort 1**
+
+![SortComplex1.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=229527 "SortComplex1.jpg")
+
+```c#
+           var wsComplex1 = wb.Worksheets.Add("Complex 1");
+            AddTestTable(wsComplex1);
+            var rangeComplex1 = wsComplex1.RangeUsed();
+            var copyComplex1 = rangeComplex1.CopyTo(wsComplex1.Column(wsComplex1.LastColumnUsed().ColumnNumber() + 3));
+            copyComplex1.Sort("2, 1 DESC", true);
+            wsComplex1.Row(1).InsertRowsAbove(2);
+            wsComplex1.Cell(1, 1)
+                .SetValue(".Sort(\"2, 1 DESC\", true) = Sort Range Top to Bottom, Col 2 Asc, Col 1 Desc, Ignore Blanks, Match Case").Style.Font.SetBold();
+```
+
+**Complex Sort 2**
+
+![SortComplex2.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=229528 "SortComplex2.jpg")
+
+```c#
+           var wsComplex2 = wb.Worksheets.Add("Complex 2");
+            AddTestTable(wsComplex2);
+            var rangeComplex2 = wsComplex2.RangeUsed();
+            var copyComplex2 = rangeComplex2.CopyTo(wsComplex2.Column(wsComplex2.LastColumnUsed().ColumnNumber() + 3));
+            copyComplex2.SortColumns.Add(1, XLSortOrder.Ascending, false, true);
+            copyComplex2.SortColumns.Add(3, XLSortOrder.Descending);
+            copyComplex2.Sort();
+            wsComplex2.Row(1).InsertRowsAbove(4);
+            wsComplex2.Cell(1, 1)
+                .SetValue(".SortColumns.Add(1, XLSortOrder.Ascending, false, true) = Sort Col 1 Asc, Match Blanks, Match Case").Style.Font.SetBold();
+            wsComplex2.Cell(2, 1)
+                .SetValue(".SortColumns.Add(3, XLSortOrder.Descending) = Sort Col 3 Desc, Ignore Blanks, Ignore Case").Style.Font.SetBold();
+            wsComplex2.Cell(3, 1)
+                .SetValue(".Sort() = Sort range using the parameters defined in SortColumns").Style.Font.SetBold();
+```
+
+**Sort Left to Right**
+
+![SortLeftToRight.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=229530 "SortLeftToRight.jpg")
+
+```c#
+            var wsLeftToRight = wb.Worksheets.Add("Sort Left to Right");
+            AddTestTable(wsLeftToRight);
+            wsLeftToRight.RangeUsed().Transpose(XLTransposeOptions.MoveCells);
+            var rangeLeftToRight = wsLeftToRight.RangeUsed();
+            var copyLeftToRight = rangeLeftToRight.CopyTo(wsLeftToRight.Row(wsLeftToRight.LastRowUsed().RowNumber() + 3));
+            copyLeftToRight.Sort(XLSortOrientation.LeftToRight);
+            wsLeftToRight.Row(1).InsertRowsAbove(2);
+            wsLeftToRight.Cell(1, 1)
+                .SetValue(".Sort(XLSortOrientation.LeftToRight) = Sort Range Left to Right, Ascendingly, Ignore Blanks, Ignore Case")
+                .Style.Font.SetBold();
+```
+
+**Sort Table**
+
+![SortTable.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=229531 "SortTable.jpg")
+
+```c#
+           var wsTable = wb.Worksheets.Add("Table");
+            AddTestTable(wsTable);
+            var header = wsTable.Row(1).InsertRowsAbove(1).First();
+            for(Int32 co = 1; co <= wsTable.LastColumnUsed().ColumnNumber(); co++)
+            {
+                header.Cell(co).Value = "Column" + co.ToString();
+            }
+            var rangeTable = wsTable.RangeUsed();
+            var table = rangeTable.CopyTo(wsTable.Column(wsTable.LastColumnUsed().ColumnNumber() + 3)).CreateTable();
+            table.Sort("Column2, Column3 Desc, Column1 ASC");
+            wsTable.Row(1).InsertRowsAbove(2);
+            wsTable.Cell(1, 1)
+                .SetValue(".Sort(\"Column2, Column3 Desc, Column1 ASC\") = Sort table Top to Bottom, Col 2 Asc, Col 3 Desc, Col 1 Asc, Ignore Blanks, Ignore Case")
+                .Style.Font.SetBold();
+```
+
+```c#
+           wb.SaveAs("SortExamples.xlsx");
+```
+
+```c#
+       private void AddTestColumn(IXLWorksheet ws)
+        {
+            ws.Cell("A1").SetValue("B").Style.Fill.SetBackgroundColor(XLColor.LightGreen);
+            ws.Cell("A2").SetValue("A").Style.Fill.SetBackgroundColor(XLColor.DarkTurquoise);
+            ws.Cell("A3").SetValue("a").Style.Fill.SetBackgroundColor(XLColor.BurlyWood);
+            ws.Cell("A4").SetValue("").Style.Fill.SetBackgroundColor(XLColor.DarkGray);
+            ws.Cell("A5").SetValue("").Style.Fill.SetBackgroundColor(XLColor.DarkSalmon);
+            ws.Cell("A6").SetValue("b").Style.Fill.SetBackgroundColor(XLColor.DodgerBlue);
+            ws.Cell("A7").SetValue("B").Style.Fill.SetBackgroundColor(XLColor.IndianRed);
+            ws.Cell("A8").SetValue("c").Style.Fill.SetBackgroundColor(XLColor.DeepPink);
+        }
+        private void AddTestTable(IXLWorksheet ws)
+        {
+            ws.Cell("A1").SetValue("B").Style.Fill.SetBackgroundColor(XLColor.LightGreen);
+            ws.Cell("A2").SetValue("A").Style.Fill.SetBackgroundColor(XLColor.DarkTurquoise);
+            ws.Cell("A3").SetValue("a").Style.Fill.SetBackgroundColor(XLColor.BurlyWood);
+            ws.Cell("A4").SetValue("A").Style.Fill.SetBackgroundColor(XLColor.DarkGray);
+            ws.Cell("A5").SetValue(" ").Style.Fill.SetBackgroundColor(XLColor.DarkSalmon);
+            ws.Cell("A6").SetValue("A").Style.Fill.SetBackgroundColor(XLColor.DodgerBlue);
+            ws.Cell("A7").SetValue("a").Style.Fill.SetBackgroundColor(XLColor.IndianRed);
+            ws.Cell("A8").SetValue("B").Style.Fill.SetBackgroundColor(XLColor.DeepPink);
+            ws.Cell("B1").SetValue(" ").Style.Fill.SetBackgroundColor(XLColor.LightGreen);
+            ws.Cell("B2").SetValue("a").Style.Fill.SetBackgroundColor(XLColor.DarkTurquoise);
+            ws.Cell("B3").SetValue("B").Style.Fill.SetBackgroundColor(XLColor.BurlyWood);
+            ws.Cell("B4").SetValue("A").Style.Fill.SetBackgroundColor(XLColor.DarkGray);
+            ws.Cell("B5").SetValue("a").Style.Fill.SetBackgroundColor(XLColor.DarkSalmon);
+            ws.Cell("B6").SetValue("A").Style.Fill.SetBackgroundColor(XLColor.DodgerBlue);
+            ws.Cell("B7").SetValue("a").Style.Fill.SetBackgroundColor(XLColor.IndianRed);
+            ws.Cell("B8").SetValue("a").Style.Fill.SetBackgroundColor(XLColor.DeepPink);
+            ws.Cell("C1").SetValue("A").Style.Fill.SetBackgroundColor(XLColor.LightGreen);
+            ws.Cell("C2").SetValue(" ").Style.Fill.SetBackgroundColor(XLColor.DarkTurquoise);
+            ws.Cell("C3").SetValue("A").Style.Fill.SetBackgroundColor(XLColor.BurlyWood);
+            ws.Cell("C4").SetValue("a").Style.Fill.SetBackgroundColor(XLColor.DarkGray);
+            ws.Cell("C5").SetValue("A").Style.Fill.SetBackgroundColor(XLColor.DarkSalmon);
+            ws.Cell("C6").SetValue("b").Style.Fill.SetBackgroundColor(XLColor.DodgerBlue);
+            ws.Cell("C7").SetValue("A").Style.Fill.SetBackgroundColor(XLColor.IndianRed);
+            ws.Cell("C8").SetValue(" ").Style.Fill.SetBackgroundColor(XLColor.DeepPink);
+        }
+```
