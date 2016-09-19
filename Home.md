@@ -12,233 +12,233 @@ To use ClosedXML you must reference the DocumentFormat.OpenXml.dll:
 
 [How do I deliver an Excel file in ASP.NET?](How-do-I-deliver-an-Excel-file-in-ASP.NET%3F)
 
-[Does it support Excel 2003 and prior formats (.xls)?](wikipage@title=Does%2520it%2520support%2520Excel%25202003%2520and%2520prior%2520formats%2520%2528.xls%2529%253f&referringTitle=Documentation.html)
+[Does it support Excel 2003 and prior formats (.xls)?](Does-it-support-Excel-2003-and-prior-formats-(.xls)%3F)
 
-[How can I insert an image?](wikipage@title=How%2520can%2520I%2520insert%2520an%2520image%253f&referringTitle=Documentation.html)
+[How can I insert an image?](How-can-I-insert-an-image%3F)
 
-[Text with numbers are getting converted to numbers, what's up with that?](wikipage@title=Text%2520with%2520numbers%2520are%2520getting%2520converted%2520to%2520numbers%252c%2520what%2527s%2520up%2520with%2520that%253f&referringTitle=Documentation.html)
+[Text with numbers are getting converted to numbers, what's up with that?](Text-with-numbers-are-getting-converted-to-numbers,-what's-up-with-that%3F)
 
-[How do I get the result of a formula?](wikipage@title=How%2520do%2520I%2520get%2520the%2520result%2520of%2520a%2520formula%253f&referringTitle=Documentation.html)
+[How do I get the result of a formula?](How-do-I-get-the-result-of-a-formula%3F)
 
 # Examples
 
 
-[Showcase](wikipage@title=Showcase&referringTitle=Documentation.html) - No nonsense example of how to use this API
+[Showcase](Showcase)
 
-[Basic Table](wikipage@title=Basic%2520Table&referringTitle=Documentation.html)
+[Basic Table](Basic-Table)
 
-[Hello World](wikipage@title=Hello%2520World&referringTitle=Documentation.html) - Proverbial hello world program
+[Hello World](Hello-World)
 
 ## Real world scenarios
 
 
-[Finding and extracting the data](wikipage@title=Finding%2520and%2520extracting%2520the%2520data&referringTitle=Documentation.html)
+[Finding and extracting the data](Finding-and-extracting-the-data)
 
 ## Time Savers
 
 
-[Simplifying your life...](wikipage@title=Simplifying%2520your%2520life...&referringTitle=Documentation.html)
+[Simplifying your life...](Simplifying-your-life...)
 
 ## Performance and Memory
 
 
-[Turning off events](wikipage@title=Turning%2520off%2520events&referringTitle=Documentation.html)
+[Turning off events](Turning-off-events)
 
-[Better lambdas](wikipage@title=Better%2520lambdas&referringTitle=Documentation.html)
+[Better lambdas](Better-lambdas)
 
-[Where to use the using keyword](wikipage@title=Where%2520to%2520use%2520the%2520using%2520keyword&referringTitle=Documentation.html)
+[Where to use the using keyword](Where-to-use-the-using-keyword)
 
-[Other performance improvements](wikipage@title=Other%2520performance%2520improvements&referringTitle=Documentation.html)
+[Other performance improvements](Other-performance-improvements)
 
 ## Misc
 
 
-[Data Types](wikipage@title=Data%2520Types&referringTitle=Documentation.html) - How to handle and convert cell's data types (Text, Boolean, DateTime, Numeric)
+[Data Types](Data-Types)
 
-[Creating Multiple Worksheets](wikipage@title=Creating%2520Multiple%2520Worksheets&referringTitle=Documentation.html)
+[Creating Multiple Worksheets](Creating-Multiple-Worksheets)
 
-[Organizing Sheets](wikipage@title=Organizing%2520Sheets&referringTitle=Documentation.html)
+[Organizing Sheets](Organizing-Sheets)
 
-[Loading and Modifying Files](wikipage@title=Loading%2520and%2520Modifying%2520Files&referringTitle=Documentation.html)
+[Loading and Modifying Files](Loading-and-Modifying-Files)
 
-[Using Lambda Expressions](wikipage@title=Using%2520Lambda%2520Expressions&referringTitle=Documentation.html)
+[Using Lambda Expressions](Using-Lambda-Expressions)
 
-[Cell Values](wikipage@title=Cell%2520Values&referringTitle=Documentation.html)
+[Cell Values](Cell-Values)
 
-[Workbook Properties](wikipage@title=Workbook%2520Properties&referringTitle=Documentation.html)
+[Workbook Properties](Workbook-Properties)
 
-[Using Formulas](wikipage@title=Using%2520Formulas&referringTitle=Documentation.html)
+[Using Formulas](Using-Formulas)
 
-[Evaluating Formulas](wikipage@title=Evaluating%2520Formulas&referringTitle=Documentation.html) **- New**
+[Evaluating Formulas](Evaluating-Formulas)
 
-[Creating Rows/Columns Outlines](wikipage@title=Creating%2520Rows%252fColumns%2520Outlines&referringTitle=Documentation.html)
+[Creating Rows/Columns Outlines](Creating-Rows/Columns-Outlines)
 
-[Hide Unhide Row(s)/Column(s)](wikipage@title=Hide%2520Unhide%2520Row%2528s%2529%252fColumn%2528s%2529&referringTitle=Documentation.html)
+[Hide Unhide Row(s)/Column(s)](Hide-Unhide-Row(s)/Column(s))
 
-[Freeze Panes](wikipage@title=Freeze%2520Panes&referringTitle=Documentation.html)
+[Freeze Panes](Freeze-Panes)
 
-[Copying Worksheets](wikipage@title=Copying%2520Worksheets&referringTitle=Documentation.html)
+[Copying Worksheets](Copying-Worksheets)
 
-[Using Hyperlinks](wikipage@title=Using%2520Hyperlinks&referringTitle=Documentation.html)
+[Using Hyperlinks](Using-Hyperlinks)
 
-[Data Validation](wikipage@title=Data%2520Validation&referringTitle=Documentation.html)
+[Data Validation](Data-Validation)
 
-[Hide Worksheets](wikipage@title=Hide%2520Worksheets&referringTitle=Documentation.html)
+[Hide Worksheets](Hide-Worksheets)
 
-[Sheet Protection](wikipage@title=Sheet%2520Protection&referringTitle=Documentation.html)
+[Sheet Protection](Sheet-Protection)
 
-[Tab Colors](wikipage@title=Tab%2520Colors&referringTitle=Documentation.html)
+[Tab Colors](Tab-Colors)
 
-[Conditional Formatting](wikipage@title=Conditional%2520Formatting&referringTitle=Documentation.html)
+[Conditional Formatting](Conditional-Formatting)
 
-[Pivot Table example](wikipage@title=Pivot%2520Table%2520example&referringTitle=Documentation.html)
+[Pivot Table example](Pivot-Table-example)
 
 ## Inserting Data/Tables
 
 
-[Copying IEnumerable Collections](wikipage@title=Copying%2520IEnumerable%2520Collections&referringTitle=Documentation.html) - Using "cell.Value = collection"
+[Copying IEnumerable Collections](Copying-IEnumerable-Collections)
 
-[Inserting Data](wikipage@title=Inserting%2520Data&referringTitle=Documentation.html) - Using "cell.InsertData(collection)"
+[Inserting Data](Inserting-Data)
 
-[Inserting Tables](wikipage@title=Inserting%2520Tables&referringTitle=Documentation.html) - Using "cell.InsertTable(collection)"
+[Inserting Tables](Inserting-Tables)
 
-[Adding DataTable as Worksheet](wikipage@title=Adding%2520DataTable%2520as%2520Worksheet&referringTitle=Documentation.html)
+[Adding DataTable as Worksheet](Adding-DataTable-as-Worksheet)
 
-[Adding DataSet](wikipage@title=Adding%2520DataSet&referringTitle=Documentation.html)
+[Adding DataSet](Adding-DataSet)
 
 ## Styles
 
 
-[Styles - Alignment](wikipage@title=Styles%2520-%2520Alignment&referringTitle=Documentation.html)
+[Styles - Alignment](Styles---Alignment)
 
-[Styles - Border](wikipage@title=Styles%2520-%2520Border&referringTitle=Documentation.html)
+[Styles - Border](Styles---Border)
 
-[Styles - Fill](wikipage@title=Styles%2520-%2520Fill&referringTitle=Documentation.html)
+[Styles - Fill](Styles---Fill)
 
-[Styles - Font](wikipage@title=Styles%2520-%2520Font&referringTitle=Documentation.html)
+[Styles - Font](Styles---Font)
 
-[Styles - NumberFormat](wikipage@title=Styles%2520-%2520NumberFormat&referringTitle=Documentation.html)
+[Styles - NumberFormat](Styles---NumberFormat)
 
-[NumberFormatId Lookup Table](wikipage@title=NumberFormatId%2520Lookup%2520Table&referringTitle=Documentation.html)
+[NumberFormatId Lookup Table](NumberFormatId-Lookup-Table)
 
-[Style Worksheet](wikipage@title=Style%2520Worksheet&referringTitle=Documentation.html)
+[Style Worksheet](Style-Worksheet)
 
-[Style Rows and Columns](wikipage@title=Style%2520Rows%2520and%2520Columns&referringTitle=Documentation.html)
+[Style Rows and Columns](Style-Rows-and-Columns)
 
-[Using Default Styles](wikipage@title=Using%2520Default%2520Styles&referringTitle=Documentation.html)
+[Using Default Styles](Using-Default-Styles)
 
-[Using Colors](wikipage@title=Using%2520Colors&referringTitle=Documentation.html)
+[Using Colors](Using-Colors)
 
-[ClosedXML Predefined Colors](wikipage@title=ClosedXML%2520Predefined%2520Colors&referringTitle=Documentation.html)
+[ClosedXML Predefined Colors](ClosedXML-Predefined-Colors)
 
-[Excel Indexed Colors](wikipage@title=Excel%2520Indexed%2520Colors&referringTitle=Documentation.html)
+[Excel Indexed Colors](Excel-Indexed-Colors)
 
-[Using Rich Text](wikipage@title=Using%2520Rich%2520Text&referringTitle=Documentation.html)
+[Using Rich Text](Using-Rich-Text)
 
-[Using Phonetics](wikipage@title=Using%2520Phonetics&referringTitle=Documentation.html)
+[Using Phonetics](Using-Phonetics)
 
 ## Ranges
 
 
-[Defining Ranges](wikipage@title=Defining%2520Ranges&referringTitle=Documentation.html)
+[Defining Ranges](Defining-Ranges)
 
-[Merging Cells](wikipage@title=Merging%2520Cells&referringTitle=Documentation.html)
+[Merging Cells](Merging-Cells)
 
-[Clearing Ranges](wikipage@title=Clearing%2520Ranges&referringTitle=Documentation.html)
+[Clearing Ranges](Clearing-Ranges)
 
-[Deleting Ranges](wikipage@title=Deleting%2520Ranges&referringTitle=Documentation.html)
+[Deleting Ranges](Deleting-Ranges)
 
-[Multiple Ranges](wikipage@title=Multiple%2520Ranges&referringTitle=Documentation.html)
+[Multiple Ranges](Multiple-Ranges)
 
-[Shifting Ranges](wikipage@title=Shifting%2520Ranges&referringTitle=Documentation.html)
+[Shifting Ranges](Shifting-Ranges)
 
-[Transpose Ranges](wikipage@title=Transpose%2520Ranges&referringTitle=Documentation.html)
+[Transpose Ranges](Transpose-Ranges)
 
-[Named Ranges](wikipage@title=Named%2520Ranges&referringTitle=Documentation.html)
+[Named Ranges](Named-Ranges)
 
-[Accessing Named Ranges](wikipage@title=Accessing%2520Named%2520Ranges&referringTitle=Documentation.html) **- New**
+[Accessing Named Ranges](Accessing-Named-Ranges)
 
-[Copying Ranges](wikipage@title=Copying%2520Ranges&referringTitle=Documentation.html)
+[Copying Ranges](Copying-Ranges)
 
-[Using Tables](wikipage@title=Using%2520Tables&referringTitle=Documentation.html)
+[Using Tables](Using-Tables)
 
-[Sorting Data](wikipage@title=Sorting%2520Data&referringTitle=Documentation.html)
+[Sorting Data](Sorting-Data)
 
-[Selecting Cells and Ranges](wikipage@title=Selecting%2520Cells%2520and%2520Ranges&referringTitle=Documentation.html)
+[Selecting Cells and Ranges](Selecting-Cells-and-Ranges)
 
 ## Rows
 
 
-[Row Height and Styles](wikipage@title=Row%2520Height%2520and%2520Styles&referringTitle=Documentation.html)
+[Row Height and Styles](Row-Height-and-Styles)
 
-[Selecting Rows](wikipage@title=Selecting%2520Rows&referringTitle=Documentation.html)
+[Selecting Rows](Selecting-Rows)
 
-[Inserting Rows](wikipage@title=Inserting%2520Rows&referringTitle=Documentation.html)
+[Inserting Rows](Inserting-Rows)
 
-[Inserting and Deleting Rows](wikipage@title=Inserting%2520and%2520Deleting%2520Rows&referringTitle=Documentation.html)
+[Inserting and Deleting Rows](Inserting-and-Deleting-Rows)
 
-[Adjust Row Height and Column Width to Contents](wikipage@title=Adjust%2520Row%2520Height%2520and%2520Column%2520Width%2520to%2520Contents&referringTitle=Documentation.html)
+[Adjust Row Height and Column Width to Contents](Adjust-Row-Height-and-Column-Width-to-Contents)
 
-[Row Cells](wikipage@title=Row%2520Cells&referringTitle=Documentation.html)
+[Row Cells](Row-Cells)
 
 ## Columns
 
 
-[Column Width and Styles](wikipage@title=Column%2520Width%2520and%2520Styles&referringTitle=Documentation.html)
+[Column Width and Styles](Column-Width-and-Styles)
 
-[Selecting Columns](wikipage@title=Selecting%2520Columns&referringTitle=Documentation.html)
+[Selecting Columns](Selecting-Columns)
 
-[Inserting Columns](wikipage@title=Inserting%2520Columns&referringTitle=Documentation.html)
+[Inserting Columns](Inserting-Columns)
 
-[Inserting and Deleting Columns](wikipage@title=Inserting%2520and%2520Deleting%2520Columns&referringTitle=Documentation.html)
+[Inserting and Deleting Columns](Inserting-and-Deleting-Columns)
 
-[Adjust Row Height and Column Width to Contents](wikipage@title=Adjust%2520Row%2520Height%2520and%2520Column%2520Width%2520to%2520Contents&referringTitle=Documentation.html)
+[Adjust Row Height and Column Width to Contents](Adjust-Row-Height-and-Column-Width-to-Contents)
 
-[Column Cells](wikipage@title=Column%2520Cells&referringTitle=Documentation.html)
+[Column Cells](Column-Cells)
 
 ## Page Setup (Print Options)
 
 
-[Pages Tab](wikipage@title=Pages%2520Tab&referringTitle=Documentation.html)
+[Pages Tab](Pages-Tab)
 
-[Paper Size Lookup Table](wikipage@title=Paper%2520Size%2520Lookup%2520Table&referringTitle=Documentation.html)
+[Paper Size Lookup Table](Paper-Size-Lookup-Table)
 
-[Margins Tab](wikipage@title=Margins%2520Tab&referringTitle=Documentation.html)
+[Margins Tab](Margins-Tab)
 
-[Headers and Footers Tab](wikipage@title=Headers%2520and%2520Footers%2520Tab&referringTitle=Documentation.html)
+[Headers and Footers Tab](Headers-and-Footers-Tab)
 
-[Sheet Tab](wikipage@title=Sheet%2520Tab&referringTitle=Documentation.html)
+[Sheet Tab](Sheet-Tab)
 
-[Print Areas and Page Breaks](wikipage@title=Print%2520Areas%2520and%2520Page%2520Breaks&referringTitle=Documentation.html)
+[Print Areas and Page Breaks](Print-Areas-and-Page-Breaks)
 
 ## AutoFilters
 
 
-[Adding an AutoFilter to a Range](wikipage@title=Adding%2520an%2520AutoFilter%2520to%2520a%2520Range&referringTitle=Documentation.html)
+[Adding an AutoFilter to a Range](Adding-an-AutoFilter-to-a-Range)
 
-[Filter Values](wikipage@title=Filter%2520Values&referringTitle=Documentation.html)
+[Filter Values](Filter-Values)
 
-[Custom Filters](wikipage@title=Custom%2520Filters&referringTitle=Documentation.html)
+[Custom Filters](Custom-Filters)
 
 ## Comments
 
 
-[Visibility](wikipage@title=Visibility&referringTitle=Documentation.html)
+[Visibility](Visibility)
 
-[Position](wikipage@title=Position&referringTitle=Documentation.html)
+[Position](Position)
 
-[Signatures](wikipage@title=Signatures&referringTitle=Documentation.html)
+[Signatures](Signatures)
 
-[Style - Alignment](wikipage@title=Style%2520-%2520Alignment&referringTitle=Documentation.html)
+[Style - Alignment](Style---Alignment)
 
-[Style - Colors and Lines](wikipage@title=Style%2520-%2520Colors%2520and%2520Lines&referringTitle=Documentation.html)
+[Style - Colors and Lines](Style---Colors-and-Lines)
 
-[Style - Size](wikipage@title=Style%2520-%2520Size&referringTitle=Documentation.html)
+[Style - Size](Style---Size)
 
-[Style - Protection](wikipage@title=Style%2520-%2520Protection&referringTitle=Documentation.html)
+[Style - Protection](Style---Protection)
 
-[Style - Properties](wikipage@title=Style%2520-%2520Properties&referringTitle=Documentation.html)
+[Style - Properties](Style---Properties)
 
-[Style - Margins](wikipage@title=Style%2520-%2520Margins&referringTitle=Documentation.html)
+[Style - Margins](Style---Margins)
 
-[Style - Web](wikipage@title=Style%2520-%2520Web&referringTitle=Documentation.html)
+[Style - Web](Style---Web)
