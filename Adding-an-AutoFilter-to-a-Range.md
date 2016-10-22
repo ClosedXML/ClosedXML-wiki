@@ -1,5 +1,3 @@
-## AutoFilters
-
 ![AutoFilter1.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=228107 "AutoFilter1.jpg")  
 ![AutoFilter2.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=228108 "AutoFilter2.jpg")  
 
