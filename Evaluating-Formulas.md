@@ -1,47 +1,51 @@
 ## Evaluating Formulas
 
-If you call cell.Value ClosedXML will try to resolve the formula and give you the result.
+If you call cell.Value ClosedXML will try to resolve the formula and give you the result.  
 
-For example:
+For example:  
 
-```c#
-    var wb = new XLWorkbook();
-    var ws = wb.AddWorksheet("Sheet1");
-    ws.Cell("A1").SetValue(1).CellBelow().SetValue(1);
-    ws.Cell("B1").SetValue(1).CellBelow().SetValue(1);
-    ws.Cell("C1").FormulaA1 = "\"The total value is: \" & SUM(A1:B2)";
-    var r = ws.Cell("C1").Value;
-    Assert.AreEqual("The total value is: 4", r.ToString());
-    // It also works if you use: ws.Cell("C1").GetString()
+```
+var wb = new XLWorkbook();
+var ws = wb.AddWorksheet("Sheet1");
+ws.Cell("A1").SetValue(1).CellBelow().SetValue(1);
+ws.Cell("B1").SetValue(1).CellBelow().SetValue(1);
+
+ws.Cell("C1").FormulaA1 = "\"The total value is: \" & SUM(A1:B2)";
+
+var r = ws.Cell("C1").Value;
+Assert.AreEqual("The total value is: 4", r.ToString());
+
+// It also works if you use: ws.Cell("C1").GetString()
+
 ```
 
-You can even resolve your own formulas without using cells. For Example:
+You can even resolve your own formulas without using cells. For Example:  
 
-If you're not referencing a worksheet you can use:
+If you're not referencing a worksheet you can use:  
+```
+var sum = XLWorkbook.EvaluateExpr("SUM(1,2,3)");
+// sum = 6
+// SUM(Sheet1!A1:B2) will fail because it doesn't know which workbook to use
 
-```c#
-  var sum = XLWorkbook.EvaluateExpr("SUM(1,2,3)");
-  // sum = 6
-  // SUM(Sheet1!A1:B2) will fail because it doesn't know which workbook to use
 ```
 
-If you're not referencing a range without a worksheet you can use:
+If you're not referencing a range without a worksheet you can use:  
+```
+var sum = workbook.Evaluate("SUM(Sheet1!A1:B2)");
+// SUM(A1:B2) will fail because it doesn't know which sheet to use
 
-```c#
-  var sum = workbook.Evaluate("SUM(Sheet1!A1:B2)");
-  // SUM(A1:B2) will fail because it doesn't know which sheet to use
 ```
 
-If you have the worksheet you can evaluate at your heart's content:
+If you have the worksheet you can evaluate at your heart's content:  
+```
+var sum = worksheet.Evaluate("SUM(A1:B2)");
 
-```c#
-  var sum = worksheet.Evaluate("SUM(A1:B2)");
 ```
 
 ## Very important:
 
 *   Not all formulas are included and you'll probably get a nasty error if the formula isn't supported or if there's an error in the formula. Please test your formulas before going to production.
-*   we are adding new formulas all the time but if your formula isn't included please let us know via the Issue Tracker. we will do our  best to include the formula asap.
+*   I'm adding new formulas all the time but if your formula isn't included please let me know via the Issue Tracker. I'll do my best to include the formula asap.
 
 ## Supported functions
 
