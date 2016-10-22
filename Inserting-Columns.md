@@ -1,5 +1,3 @@
-## Inserting Rows
-
 **Create a new worksheet and fill some cells**  
 ```c#
 var workbook = new XLWorkbook();
