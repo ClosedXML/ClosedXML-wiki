@@ -1,7 +1,7 @@
 ![RegularAutoFilter1.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=301320 "RegularAutoFilter1.jpg")  
-->  
+
 ![RegularAutoFilter2.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=301321 "RegularAutoFilter2.jpg")  
-->  
+
 ![RegularAutoFilter3.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=301322 "RegularAutoFilter3.jpg")  
 
 ```c#
