@@ -228,22 +228,22 @@ To use ClosedXML you must reference the DocumentFormat.OpenXml.dll:
 ## Comments
 
 
-[Visibility](Visibility)
+[Visibility](Comments-Visibility)
 
-[Position](Position)
+[Position](Comments-Position)
 
-[Signatures](Signatures)
+[Signatures](Comments-Signatures)
 
-[Style - Alignment](Style-Alignment)
+[Style - Alignment](Comments-Style-Alignment)
 
-[Style - Colors and Lines](Style-Colors-and-Lines)
+[Style - Colors and Lines](Comments-Style-Colors-and-Lines)
 
-[Style - Size](Style-Size)
+[Style - Size](Comments-Style-Size)
 
-[Style - Protection](Style-Protection)
+[Style - Protection](Comments-Style-Protection)
 
-[Style - Properties](Style-Properties)
+[Style - Properties](Comments-Style-Properties)
 
-[Style - Margins](Style-Margins)
+[Style - Margins](Comments-Style-Margins)
 
-[Style - Web](Style-Web)
+[Style - Web](Comments-Style-Web)
