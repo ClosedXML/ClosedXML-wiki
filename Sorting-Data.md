@@ -34,7 +34,7 @@ copySimpleColumn.Sort(XLSortOrder.Descending, true);
 
 wsSimpleColumn.Row(1).InsertRowsAbove(2);
 wsSimpleColumn.Cell(1, 1)
-.SetValue(".Sort(XLSortOrder.Descending, true) = Sort Range Top to Bottom, Descendingly, Ignore Blanks, Match Case").Style.Font.SetBold();
+  .SetValue(".Sort(XLSortOrder.Descending, true) = Sort Range Top to Bottom, Descendingly, Ignore Blanks, Match Case").Style.Font.SetBold();
 
 ```
 
@@ -52,7 +52,7 @@ copyComplex1.Sort("2, 1 DESC", true);
 
 wsComplex1.Row(1).InsertRowsAbove(2);
 wsComplex1.Cell(1, 1)
-.SetValue(".Sort(\"2, 1 DESC\", true) = Sort Range Top to Bottom, Col 2 Asc, Col 1 Desc, Ignore Blanks, Match Case").Style.Font.SetBold();
+  .SetValue(".Sort(\"2, 1 DESC\", true) = Sort Range Top to Bottom, Col 2 Asc, Col 1 Desc, Ignore Blanks, Match Case").Style.Font.SetBold();
 ```
 
 **Complex Sort 2**  
