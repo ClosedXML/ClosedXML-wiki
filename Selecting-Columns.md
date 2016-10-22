@@ -1,10 +1,8 @@
-#test
-
 ## Selecting Columns of a Range
 
 ![ColumnsOfARange.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=152520 "ColumnsOfARange.jpg")  
 
-```
+```c#
 var workbook = new XLWorkbook();
 var ws = workbook.Worksheets.Add("Columns of a Range");
 
@@ -33,14 +31,13 @@ bigRange.Columns("V").Style.Fill.BackgroundColor = XLColor.Cyan;
 
 // Only the used columns in a worksheet
 ws.Columns("A:V").Width = 3; 
-
 ```
 
 ## Selecting Columns of a Worksheet
 
 ![ColumnsOfAWorksheet.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=152521 "ColumnsOfAWorksheet.jpg")  
 
-```
+```c#
 var ws2 = workbook.Worksheets.Add("Columns of a worksheet");
 
 // Contiguous columns by number
