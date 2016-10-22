@@ -78,7 +78,7 @@ To use ClosedXML you must reference the DocumentFormat.OpenXml.dll:
 
 [Creating Rows And Columns Outlines](Creating-Rows-And-Columns-Outlines)
 
-[Hide Unhide Row(s) / Column(s)](Hide-Unhide-Row(s)-Column(s))
+[Hide Unhide Row(s) And Column(s)](Hide-Unhide-Row(s)-And-Column(s))
 
 [Freeze Panes](Freeze-Panes)
 
@@ -114,15 +114,15 @@ To use ClosedXML you must reference the DocumentFormat.OpenXml.dll:
 ## Styles
 
 
-[Styles - Alignment](Styles---Alignment)
+[Styles - Alignment](Styles-Alignment)
 
-[Styles - Border](Styles---Border)
+[Styles - Border](Styles-Border)
 
-[Styles - Fill](Styles---Fill)
+[Styles - Fill](Styles-Fill)
 
-[Styles - Font](Styles---Font)
+[Styles - Font](Styles-Font)
 
-[Styles - NumberFormat](Styles---NumberFormat)
+[Styles - NumberFormat](Styles-NumberFormat)
 
 [NumberFormatId Lookup Table](NumberFormatId-Lookup-Table)
 
@@ -234,16 +234,16 @@ To use ClosedXML you must reference the DocumentFormat.OpenXml.dll:
 
 [Signatures](Signatures)
 
-[Style - Alignment](Style---Alignment)
+[Style - Alignment](Style-Alignment)
 
-[Style - Colors and Lines](Style---Colors-and-Lines)
+[Style - Colors and Lines](Style-Colors-and-Lines)
 
-[Style - Size](Style---Size)
+[Style - Size](Style-Size)
 
-[Style - Protection](Style---Protection)
+[Style - Protection](Style-Protection)
 
-[Style - Properties](Style---Properties)
+[Style - Properties](Style-Properties)
 
-[Style - Margins](Style---Margins)
+[Style - Margins](Style-Margins)
 
-[Style - Web](Style---Web)
+[Style - Web](Style-Web)
