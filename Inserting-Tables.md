@@ -9,7 +9,7 @@ This example shows how to insert data into a worksheet by using the method cell.
 
 ![InsertingTables.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=202111 "InsertingTables.jpg")  
 
-```
+```c#
 public void Create()
 {
   var wb = new XLWorkbook();
