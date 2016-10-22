@@ -1,5 +1,3 @@
-## Inserting and Deleting Columns
-
 ```c#
 var workbook = new XLWorkbook();
 var ws = workbook.Worksheets.Add("Inserting and Deleting Columns");
