@@ -10,8 +10,8 @@ ws.Rows().Style.Fill.BackgroundColor = XLColor.LightCyan;
 
 // Put a value in a few cells
 foreach (var r in Enumerable.Range(1, 5))
-foreach (var c in Enumerable.Range(1, 5))
-ws.Cell(r, c).Value = "X";
+  foreach (var c in Enumerable.Range(1, 5))
+    ws.Cell(r, c).Value = "X";
 ```
 
 ![InsertingRowsInitial.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=160658 "InsertingRowsInitial.jpg")  
