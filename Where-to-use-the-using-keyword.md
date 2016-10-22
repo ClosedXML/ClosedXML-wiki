@@ -12,7 +12,7 @@ var wb = new XLWorkbook();
 var ws = wb.Worksheets.Add("Sheet1");
 for (int ro = 1; ro <= 1000000; ro++)
 {
-ws.Row(ro).FirstCell().Value = ro;
+  ws.Row(ro).FirstCell().Value = ro;
 }
 ```
 
@@ -20,28 +20,28 @@ ws.Row(ro).FirstCell().Value = ro;
 ```c#
 using (var wb = new XLWorkbook())
 {
-// No need to put the worksheet inside a "using" block because
-// the workbook will dispose of the sheets. The worksheet is not
-// created inside a loop and the workbook's dispose is being
-// called immediately after using the worksheet.
-var ws = wb.Worksheets.Add("Sheet1"); 
-for (int ro = 1; ro <= 1000000; ro++)
-{
-// Dispose of the row once we're done with it
-using(var row = ws.Row(ro))
-row.FirstCell().Value = ro;
+  // No need to put the worksheet inside a "using" block because
+  // the workbook will dispose of the sheets. The worksheet is not
+  // created inside a loop and the workbook's dispose is being
+  // called immediately after using the worksheet.
+  var ws = wb.Worksheets.Add("Sheet1"); 
+  for (int ro = 1; ro <= 1000000; ro++)
+  {
+    // Dispose of the row once we're done with it
+    using(var row = ws.Row(ro))
+    row.FirstCell().Value = ro;
+  }
 }
-}
-
-```c#
-**Not so good:**  
 ```
+
+**Not so good:**  
+```c#
 var wb = new XLWorkbook();
 for (int wsNum = 1; wsNum <= 10; wsNum++)
 {
-var ws = wb.Worksheets.Add("Sheet" + wsNum);
+  var ws = wb.Worksheets.Add("Sheet" + wsNum);
 
-// Add stuff to the worksheet...
+  // Add stuff to the worksheet...
 }
 ```
 
@@ -49,14 +49,14 @@ var ws = wb.Worksheets.Add("Sheet" + wsNum);
 ```c#
 using (var wb = new XLWorkbook())
 {
-for (int wsNum = 1; wsNum <= 10; wsNum++)
-{
-// Dispose the worksheet right away
-// (Don't wait for the workbook to do so)
-using (var ws = wb.Worksheets.Add("Sheet" + wsNum))
-{
-// Add stuff to the worksheet...
-}
-}
+  for (int wsNum = 1; wsNum <= 10; wsNum++)
+  {
+    // Dispose the worksheet right away
+    // (Don't wait for the workbook to do so)
+    using (var ws = wb.Worksheets.Add("Sheet" + wsNum))
+    {
+      // Add stuff to the worksheet...
+    }
+  }
 }
 ```
