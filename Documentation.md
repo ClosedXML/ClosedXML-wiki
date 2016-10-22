@@ -76,7 +76,7 @@ To use ClosedXML you must reference the DocumentFormat.OpenXml.dll:
 
 [Evaluating Formulas](Evaluating-Formulas)
 
-[Creating Rows / Columns Outlines](Creating-Rows-and-Columns-Outlines)
+[Creating Rows And Columns Outlines](Creating-Rows-And-Columns-Outlines)
 
 [Hide Unhide Row(s) / Column(s)](Hide-Unhide-Row(s)-Column(s))
 
