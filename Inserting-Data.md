@@ -1,5 +1,3 @@
-## Inserting Data
-
 This example shows how to insert data into a worksheet by using the method cell.InsertData(collection)  
 **Note:** The difference between InsertData and InsertTable is that InsertData doesn't insert column names and returns a range. InsertTable will insert the column names and returns a table.  
 
@@ -47,7 +45,7 @@ public void Create()
 
   ws.Cell(6, 6).Value = "From Query";
   ws.Range(6, 6, 6, 8).Merge().AddToNamed("Titles");
-  var rangeWithPeople = ws.Cell(7, 6).InsertData(people.AsEnumerable()); 
+  var rangeWithPeople = ws.Cell(7, 6).InsertData(people.AsEnumerable());
 
   // Prepare the style for the titles
   var titlesStyle = wb.Style;

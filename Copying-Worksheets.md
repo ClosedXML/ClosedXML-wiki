@@ -1,5 +1,3 @@
-## Copying Worksheets
-
 ```c#
 var wb = new XLWorkbook("BasicTable.xlsx");
 var wsSource = wb.Worksheet(1);

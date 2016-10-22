@@ -1,5 +1,3 @@
-## Styles - Fill
-
 ![Styles_Fill.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=147905 "Styles_Fill.jpg")  
 
 ```c#

@@ -1,5 +1,3 @@
-## Where to use the using keyword
-
 **Note:** The "using" keyword is not needed if you turn off event tracking on the workbook. Please see [Turning off events](Turning-off-events) for more details.  
 
 You should use the "using" keyword whenever you get a hold of a range-like object inside a loop. That includes workbook, worksheet, row, rows, column, and columns.  
@@ -8,7 +6,7 @@ The following recommendations assume you're dealing with big files.
 
 **Not so good:**  
 ```c#
-var wb = new XLWorkbook(); 
+var wb = new XLWorkbook();
 var ws = wb.Worksheets.Add("Sheet1");
 for (int ro = 1; ro <= 1000000; ro++)
 {
@@ -24,7 +22,7 @@ using (var wb = new XLWorkbook())
   // the workbook will dispose of the sheets. The worksheet is not
   // created inside a loop and the workbook's dispose is being
   // called immediately after using the worksheet.
-  var ws = wb.Worksheets.Add("Sheet1"); 
+  var ws = wb.Worksheets.Add("Sheet1");
   for (int ro = 1; ro <= 1000000; ro++)
   {
     // Dispose of the row once we're done with it

@@ -1,5 +1,3 @@
-## Turning off events
-
 By default ClosedXML keeps track of the inserts/deletes and adjusts the ranges accordingly.  
 
 For example:  

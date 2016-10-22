@@ -1,5 +1,3 @@
-## Organizing Sheets
-
 First let's create 5 sheets:  
 ```c#
 var wb = new XLWorkbook();

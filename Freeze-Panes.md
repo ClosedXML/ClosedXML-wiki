@@ -1,5 +1,3 @@
-## Freeze Panes
-
 ```c#
 var wb = new XLWorkbook();
 var wsFreeze = wb.Worksheets.Add("Freeze View");

@@ -1,5 +1,3 @@
-## Evaluating Formulas
-
 If you call cell.Value ClosedXML will try to resolve the formula and give you the result.  
 
 For example:  
@@ -16,7 +14,6 @@ var r = ws.Cell("C1").Value;
 Assert.AreEqual("The total value is: 4", r.ToString());
 
 // It also works if you use: ws.Cell("C1").GetString()
-
 ```
 
 You can even resolve your own formulas without using cells. For Example:  

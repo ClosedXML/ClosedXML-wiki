@@ -1,5 +1,3 @@
-## Deleting Ranges
-
 ```c#
 var workbook = new XLWorkbook();
 

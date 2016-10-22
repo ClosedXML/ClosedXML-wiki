@@ -1,5 +1,3 @@
-## Style Worksheet
-
 ![StyleWorksheet.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=154796 "StyleWorksheet.jpg")  
 
 ```c#

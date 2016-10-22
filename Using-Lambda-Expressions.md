@@ -1,5 +1,3 @@
-## Using Lambda Expressions
-
 We start with the basic table:  
 
 ![BasicTable.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=162281 "BasicTable.jpg")  

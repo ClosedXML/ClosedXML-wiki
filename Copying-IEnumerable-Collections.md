@@ -1,5 +1,3 @@
-## Copying IEnumerable Collections
-
 This example shows how to insert data into a worksheet by setting cell.Value = collection  
 
 ![Collections.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=177518 "Collections.jpg")  

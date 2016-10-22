@@ -1,5 +1,3 @@
-## Using Formulas
-
 ![Formulas.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=216551 "Formulas.jpg")  
 
 ```c#

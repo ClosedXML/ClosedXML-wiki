@@ -1,5 +1,3 @@
-## Style Rows and Columns
-
 ![StyleRowsColumns.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=154798 "StyleRowsColumns.jpg")  
 
 ```c#

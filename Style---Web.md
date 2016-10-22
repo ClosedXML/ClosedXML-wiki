@@ -1,5 +1,3 @@
-## Comments Web
-
 ![Web.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=320488 "Web.jpg")
 
 ```c#

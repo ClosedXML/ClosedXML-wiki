@@ -1,5 +1,3 @@
-## Hide Worksheets
-
 ```c#
 var wb = new XLWorkbook();
 

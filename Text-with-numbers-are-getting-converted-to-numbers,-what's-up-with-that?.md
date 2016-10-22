@@ -1,5 +1,3 @@
-## Text with numbers are getting converted to numbers, what's up with that?
-
 When you set the .Value property of a cell, ClosedXML will call the .ToString() method of the object and proceed to interpret the value as a number, date, boolean, time stamp, or text.  
 
 To insert a number as text you have the following options:  

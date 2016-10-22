@@ -1,5 +1,3 @@
-## Styles - NumberFormat
-
 ![Styles_NumberFormat.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=147280 "Styles_NumberFormat.jpg")  
 
 ```c#
@@ -26,4 +24,3 @@ workbook.SaveAs("StylesNumberFormat.xlsx");
 ```
 
 For more information on NumberFormatId please see [NumberFormatId Lookup Table](NumberFormatId Lookup Table).
-

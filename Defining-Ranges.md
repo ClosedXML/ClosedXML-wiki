@@ -1,5 +1,3 @@
-## Defining Ranges
-
 ![DefiningRanges.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=165393 "DefiningRanges.jpg")  
 
 ```c#

@@ -1,5 +1,3 @@
-## Tab Colors
-
 ![TabColors.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=243483 "TabColors.jpg")  
 
 ```c#

@@ -1,5 +1,3 @@
-## Conditional Formatting
-
 **Range of numbers**  
 
 ![cfRange.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=363983 "cfRange.jpg")  
@@ -77,4 +75,3 @@ Just put your match with an = sign. e.g.
 ```
 
 If you need to start the string with an equal sign then put the entire string between quotes (`"\"=Hello\""`)  
-

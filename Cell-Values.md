@@ -1,5 +1,3 @@
-## Cell Values
-
 ![CellValues.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=177519 "CellValues.jpg")  
 
 ```c#

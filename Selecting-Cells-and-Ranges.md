@@ -1,5 +1,3 @@
-# Selecting Cells and Ranges
-
 ## Set the active cell
 
 ```c#
@@ -20,4 +18,3 @@ wsSelectMisc.Ranges("C3, D4:E5").Select();
 ```
 
 ![SelectRanges.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=472833 "SelectRanges.jpg")  
-

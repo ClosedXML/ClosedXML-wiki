@@ -1,5 +1,3 @@
-# Simplifying your life
-
 Here's a list of a methods that will probably save you time and sanity. Please let us know in a discussion if there's anything we can do to make your life easier.  
 
 ## Ranges

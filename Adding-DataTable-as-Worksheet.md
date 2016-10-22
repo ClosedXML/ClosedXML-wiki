@@ -1,5 +1,3 @@
-## Adding DataTable as Worksheet
-
 ```c#
 var wb = new XLWorkbook();
 

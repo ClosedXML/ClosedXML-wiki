@@ -1,5 +1,3 @@
-## Sorting Data
-
 ```c#
 var wb = new XLWorkbook();
 ```

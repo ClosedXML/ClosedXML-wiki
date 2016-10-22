@@ -1,5 +1,3 @@
-## Clearing Ranges
-
 ![ClearingRanges.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=151765 "ClearingRanges.jpg")  
 
 ```c#

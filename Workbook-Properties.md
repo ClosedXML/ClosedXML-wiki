@@ -1,5 +1,3 @@
-## Workbook Properties
-
 ```c#
 var wb = new XLWorkbook();
 var ws = wb.Worksheets.Add("Workbook Properties");

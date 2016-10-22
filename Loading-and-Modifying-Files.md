@@ -1,5 +1,3 @@
-## Loading and Modifying Files
-
 **Loading a workbook created with ClosedXML:**  
 ```c#
 var workbook = new XLWorkbook("BasicTable.xlsx");

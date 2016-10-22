@@ -1,5 +1,3 @@
-## Copying Ranges
-
 ```c#
 var workbook = new XLWorkbook("BasicTable.xlsx");
 var ws = workbook.Worksheet(1);
@@ -15,4 +13,3 @@ wsCopy.Cell(1,1).Value = rngData;
 
 workbook.SaveAs("CopyingRanges.xlsx");
 ```
-

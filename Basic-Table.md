@@ -1,5 +1,3 @@
-## Basic Table
-
 ![BasicTable.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=165397 "BasicTable.jpg")  
 
 **Creating a new workbook**  

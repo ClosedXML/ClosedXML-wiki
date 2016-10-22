@@ -1,5 +1,3 @@
-## Adjust Row Height and Column Width to Contents
-
 ![AdjustToContents.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=192404 "AdjustToContents.jpg")  
 
 ```c#

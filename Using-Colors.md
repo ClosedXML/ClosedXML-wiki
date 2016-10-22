@@ -1,5 +1,3 @@
-## Using Colors
-
 You can create XLColor objects in a variety of ways. You can select one of the many [ClosedXML Predefined Colors](ClosedXML-Predefined-Colors), or you can create your own with one of the following methods:  
 
 ![UsingColors2.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=189705 "UsingColors2.jpg")  

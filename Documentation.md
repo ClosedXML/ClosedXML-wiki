@@ -1,8 +1,3 @@
-<strong>We are in the process of migrating the documentation from <a href="https://closedxml.codeplex.com/documentation" target="_blank">https://closedxml.codeplex.com/documentation</a> to GitHub.</strong>
-
-***
-
-
 # Requirements:
 
 To use ClosedXML you must reference the DocumentFormat.OpenXml.dll:

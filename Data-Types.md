@@ -1,5 +1,3 @@
-## Data Types
-
 [image:DataTypes.jpg]  
 
 ```c#

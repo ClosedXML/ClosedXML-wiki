@@ -1,5 +1,3 @@
-## Adding DataSet
-
 ```c#
 var wb = new XLWorkbook();
 

@@ -1,5 +1,3 @@
-## Creating Rows And Columns Outlines
-
 ![Outline.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=166428 "Outline.jpg")  
 
 ```c#
@@ -19,7 +17,7 @@ ws.Rows(1, 2).Group(); // Create an outline (level 3) for rows 1-2
 ws.Rows(1, 2).Ungroup(); // Ungroup rows 1-2 from their last outline
 
 // You can also Collapse/Expand specific outline levels
-// 
+//
 // ws.CollapseRows(Int32 outlineLevel)
 // ws.CollapseColumns(Int32 outlineLevel)
 //
@@ -27,7 +25,7 @@ ws.Rows(1, 2).Ungroup(); // Ungroup rows 1-2 from their last outline
 // ws.ExpandColumns(Int32 outlineLevel)
 
 // And you can also Collapse/Expand ALL outline levels in one shot
-// 
+//
 // ws.CollapseRows()
 // ws.CollapseColumns()
 //

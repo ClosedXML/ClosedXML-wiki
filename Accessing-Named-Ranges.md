@@ -1,5 +1,3 @@
-## Accessing Named Ranges
-
 If you have one or more [Named Ranges](Named-Ranges) you can access them in different ways:  
 
 *   A specific range/cell in the named range
@@ -54,4 +52,3 @@ var range = worksheet.Range("Result");
 
 **Can't find it?**  
 A null is returned if the named range doesn't exist.  
-

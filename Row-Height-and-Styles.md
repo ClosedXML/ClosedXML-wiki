@@ -1,5 +1,3 @@
-## Row Height and Styles
-
 ![RowSettings.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=147555 "RowSettings.jpg")  
 
 ```c#

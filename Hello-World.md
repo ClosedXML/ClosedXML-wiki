@@ -1,5 +1,3 @@
-## Hello World
-
 ![Hello_World.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=147085 "Hello_World.jpg")  
 
 ```c#

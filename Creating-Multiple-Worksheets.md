@@ -1,5 +1,3 @@
-## Creating Multiple Worksheets
-
 ![MultipleSheets.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=149611 "MultipleSheets.jpg")  
 
 ```c#

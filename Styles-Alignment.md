@@ -1,5 +1,3 @@
-## Comments Alignment
-
 ![Alignment.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=320482 "Alignment.jpg")  
 
 ```c#

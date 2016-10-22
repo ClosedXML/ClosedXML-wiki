@@ -1,5 +1,3 @@
-## Shifting Ranges
-
 ```c#
 var workbook = new XLWorkbook("BasicTable.xlsx");
 var ws = workbook.Worksheet(1);
@@ -19,4 +17,3 @@ ws.Columns().AdjustToContents();
 
 workbook.SaveAs("ShiftingRanges.xlsx");
 ```
-

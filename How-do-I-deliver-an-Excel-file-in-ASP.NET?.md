@@ -1,5 +1,3 @@
-## How do I deliver an Excel file in ASP.NET?
-
 This is, without a doubt, the single most asked question...
 
 ```c#
@@ -16,9 +14,9 @@ httpResponse.AddHeader("content-disposition", "attachment;filename=\"HelloWorld.
 // Flush the workbook to the Response.OutputStream
 using (MemoryStream memoryStream = new MemoryStream())
 {
-    workbook.SaveAs(memoryStream);
-    memoryStream.WriteTo(httpResponse.OutputStream);
-    memoryStream.Close();
+  workbook.SaveAs(memoryStream);
+  memoryStream.WriteTo(httpResponse.OutputStream);
+  memoryStream.Close();
 }
 
 httpResponse.End();

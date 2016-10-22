@@ -1,5 +1,3 @@
-## Data Validation
-
 ```c#
 var wb = new XLWorkbook();
 var ws = wb.Worksheets.Add("Data Validation");

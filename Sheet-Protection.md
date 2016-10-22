@@ -1,5 +1,3 @@
-## Sheet Protection
-
 ```c#
 var wb = new XLWorkbook();
 var ws = wb.Worksheets.Add("Protected No-Password");

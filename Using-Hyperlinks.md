@@ -1,5 +1,3 @@
-## Using Hyperlinks
-
 ![Hyperlinks.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=204421 "Hyperlinks.jpg")  
 
 ```c#

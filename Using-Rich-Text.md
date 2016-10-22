@@ -1,5 +1,3 @@
-## Using Rich Text
-
 ```c#
 var wb = new XLWorkbook();
 var ws = wb.Worksheets.Add("Rich Text");
