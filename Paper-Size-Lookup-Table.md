@@ -1,14 +1,15 @@
 <table border="0" cellspacing="0" cellpadding="0" width="497" style="border-collapse:collapse; table-layout:fixed; width:373pt"><colgroup><col width="182" style="width:137pt"><col width="315" style="width:236pt"></colgroup>
 
-<tbody>
-
+<thead>
 <tr height="20" style="height:15.0pt">
 
-<td width="182" height="20" style="height:15.0pt; width:137pt">XLPaperSize Enumeration:</td>
+<th width="182" height="20" style="height:15.0pt; width:137pt">XLPaperSize Enumeration:</th>
 
-<td width="315" style="border-left:none; width:236pt">Paper Size:</td>
+<th width="315" style="border-left:none; width:236pt">Paper Size:</th>
 
 </tr>
+</thead>
+<tbody>
 
 <tr height="20" style="height:15.0pt">
 
