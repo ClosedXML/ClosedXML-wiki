@@ -1,4 +1,4 @@
-## Creating Rows/Columns Outlines
+## Creating Rows And Columns Outlines
 
 ![Outline.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=166428 "Outline.jpg")  
 
