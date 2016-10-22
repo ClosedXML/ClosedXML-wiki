@@ -45,115 +45,129 @@ If you have the worksheet you can evaluate at your heart's content:
 
 ## Supported functions
 
-***
 ```c#
-* ce.RegisterFunction("DATE", 3, Date); // Returns the serial number of a particular date
-* ce.RegisterFunction("DATEVALUE", 1, Datevalue); // Converts a date in the form of text to a serial number
-* ce.RegisterFunction("DAY", 1, Day); // Converts a serial number to a day of the month
-* ce.RegisterFunction("DAYS360", 2, 3, Days360); // Calculates the number of days between two dates based on a 360-day year
-* ce.RegisterFunction("EDATE", 2, Edate); // Returns the serial number of the date that is the indicated number of months before or after the start date
-* ce.RegisterFunction("EOMONTH", 2, Eomonth); // Returns the serial number of the last day of the month before or after a specified number of months
-* ce.RegisterFunction("HOUR", 1, Hour); // Converts a serial number to an hour
-* ce.RegisterFunction("MINUTE", 1, Minute); // Converts a serial number to a minute
-* ce.RegisterFunction("MONTH", 1, Month); // Converts a serial number to a month
-* ce.RegisterFunction("NETWORKDAYS", 2, 3, Networkdays); // Returns the number of whole workdays between two dates
-* ce.RegisterFunction("NOW", 0, Now); // Returns the serial number of the current date and time
-* ce.RegisterFunction("SECOND", 1, Second); // Converts a serial number to a second
-* ce.RegisterFunction("TIME", 3, Time); // Returns the serial number of a particular time
-* ce.RegisterFunction("TIMEVALUE", 1, Timevalue); // Converts a time in the form of text to a serial number
-* ce.RegisterFunction("TODAY", 0, Today); // Returns the serial number of today's date
-* ce.RegisterFunction("WEEKDAY", 1, 2, Weekday); // Converts a serial number to a day of the week
-* ce.RegisterFunction("WEEKNUM", 1, 2, Weeknum); // Converts a serial number to a number representing where the week falls numerically with a year
-* ce.RegisterFunction("WORKDAY", 2, 3, Workday); // Returns the serial number of the date before or after a specified number of workdays
-* ce.RegisterFunction("YEAR", 1, Year); // Converts a serial number to a year
-* ce.RegisterFunction("YEARFRAC", 2, 3, Yearfrac); // Returns the year fraction representing the number of whole days between start_date and end_date
-* ce.RegisterFunction("AND", 1, int.MaxValue, And);
-* ce.RegisterFunction("OR", 1, int.MaxValue, Or);
-* ce.RegisterFunction("NOT", 1, Not);
-* ce.RegisterFunction("IF", 3, If);
-* ce.RegisterFunction("TRUE", 0, True);
-* ce.RegisterFunction("FALSE", 0, False);
-* ce.RegisterFunction("ABS", 1, Abs);
-* ce.RegisterFunction("ACOS", 1, Acos);
-* ce.RegisterFunction("ACOSH", 1, Acosh);
-* ce.RegisterFunction("ASIN", 1, Asin);
-* ce.RegisterFunction("ASINH", 1, Asinh);
-* ce.RegisterFunction("ATAN", 1, Atan);
-* ce.RegisterFunction("ATAN2", 2, Atan2);
-* ce.RegisterFunction("ATANH", 1, Atanh);
-* ce.RegisterFunction("CEILING", 1, Ceiling);
-* ce.RegisterFunction("COMBIN", 2, Combin);
-* ce.RegisterFunction("COS", 1, Cos);
-* ce.RegisterFunction("COSH", 1, Cosh);
-* ce.RegisterFunction("DEGREES", 1, Degrees);
-* ce.RegisterFunction("EVEN", 1, Even);
-* ce.RegisterFunction("EXP", 1, Exp);
-* ce.RegisterFunction("FACT", 1, Fact);
-* ce.RegisterFunction("FACTDOUBLE", 1, FactDouble);
-* ce.RegisterFunction("FLOOR", 1, Floor);
-* ce.RegisterFunction("GCD", 1, 255, Gcd);
-* ce.RegisterFunction("INT", 1, Int);
-* ce.RegisterFunction("LCM", 1, 255, Lcm);
-* ce.RegisterFunction("LN", 1, Ln);
-* ce.RegisterFunction("LOG", 1, 2, Log);
-* ce.RegisterFunction("LOG10", 1, Log10);
-* ce.RegisterFunction("MDETERM", 1, MDeterm);
-* ce.RegisterFunction("MINVERSE", 1, MInverse);
-* ce.RegisterFunction("MMULT", 2, MMult);
-* ce.RegisterFunction("MOD", 2, Mod);
-* ce.RegisterFunction("MROUND", 2, MRound);
-* ce.RegisterFunction("MULTINOMIAL", 1, 255, Multinomial);
-* ce.RegisterFunction("ODD", 1, Odd);
-* ce.RegisterFunction("PI", 0, Pi);
-* ce.RegisterFunction("POWER", 2, Power);
-* ce.RegisterFunction("PRODUCT", 1, 255, Product);
-* ce.RegisterFunction("QUOTIENT", 2, Quotient);
-* ce.RegisterFunction("RADIANS", 1, Radians);
-* ce.RegisterFunction("RAND", 0, Rand);
-* ce.RegisterFunction("RANDBETWEEN", 2, RandBetween);
-* ce.RegisterFunction("ROMAN", 1, 2, Roman);
-* ce.RegisterFunction("ROUND", 2, Round);
-* ce.RegisterFunction("ROUNDDOWN", 2, RoundDown);
-* ce.RegisterFunction("ROUNDUP", 1, 2, RoundUp);
-* ce.RegisterFunction("SERIESSUM", 4, SeriesSum);
-* ce.RegisterFunction("SIGN", 1, Sign);
-* ce.RegisterFunction("SIN", 1, Sin);
-* ce.RegisterFunction("SINH", 1, Sinh);
-* ce.RegisterFunction("SQRT", 1, Sqrt);
-* ce.RegisterFunction("SQRTPI", 1, SqrtPi);
-* ce.RegisterFunction("SUBTOTAL", 2, 255, Subtotal);
-* ce.RegisterFunction("SUM", 1, int.MaxValue, Sum);
-* ce.RegisterFunction("SUMIF", 2, 3, SumIf);
-* ce.RegisterFunction("SUMSQ", 1, 255, SumSq);
-* ce.RegisterFunction("TAN", 1, Tan);
-* ce.RegisterFunction("TANH", 1, Tanh);
-* ce.RegisterFunction("TRUNC", 1, Trunc);
-* ce.RegisterFunction("AVERAGE", 1, int.MaxValue, Average);
-* ce.RegisterFunction("AVERAGEA", 1, int.MaxValue, AverageA);
-* ce.RegisterFunction("COUNT", 1, int.MaxValue, Count);
-* ce.RegisterFunction("COUNTA", 1, int.MaxValue, CountA);
-* ce.RegisterFunction("COUNTBLANK", 1, int.MaxValue, CountBlank);
-* ce.RegisterFunction("COUNTIF", 2, CountIf);
-* ce.RegisterFunction("MAX", 1, int.MaxValue, Max);
-* ce.RegisterFunction("MAXA", 1, int.MaxValue, MaxA);
-* ce.RegisterFunction("MIN", 1, int.MaxValue, Min);
-* ce.RegisterFunction("MINA", 1, int.MaxValue, MinA);
-* ce.RegisterFunction("STDEV", 1, int.MaxValue, StDev);
-* ce.RegisterFunction("STDEVA", 1, int.MaxValue, StDevA);
-* ce.RegisterFunction("STDEVP", 1, int.MaxValue, StDevP);
-* ce.RegisterFunction("STDEVPA", 1, int.MaxValue, StDevPA);
-* ce.RegisterFunction("VAR", 1, int.MaxValue, Var);
-* ce.RegisterFunction("VARA", 1, int.MaxValue, VarA);
-* ce.RegisterFunction("VARP", 1, int.MaxValue, VarP);
-* ce.RegisterFunction("VARPA", 1, int.MaxValue, VarPA);
-* ce.RegisterFunction("ASC", 1, Asc); // Changes full-width (double-byte) English letters or katakana within a character string to half-width (single-byte) characters
-* ce.RegisterFunction("CHAR", 1, _Char); // Returns the character specified by the code number
-* ce.RegisterFunction("CLEAN", 1, Clean); // Removes all nonprintable characters from text
-* ce.RegisterFunction("CODE", 1, Code); // Returns a numeric code for the first character in a text string
-* ce.RegisterFunction("CONCATENATE", 1, int.MaxValue, Concat); // Joins several text items into one text item
-* ce.RegisterFunction("DOLLAR", 1, 2, Dollar); // Converts a number to text, using the $ (dollar) currency format
-* ce.RegisterFunction("EXACT", 2, Exact);
-* ce.RegisterFunction("VLOOKUP", 4, Vlookup); // (new after 0.81.0) Looks in the first column of an array and moves across
-* ce.RegisterFunction("HLOOKUP", 4, Hlookup); // (new after 0.81.0)Looks in the top row of an array and returns the value of the indicated cell
-
+ce.RegisterFunction("DATE", 3, Date); // Returns the serial number of a particular date  
+ce.RegisterFunction("DATEVALUE", 1, Datevalue); // Converts a date in the form of text to a serial number  
+ce.RegisterFunction("DAY", 1, Day); // Converts a serial number to a day of the month  
+ce.RegisterFunction("DAYS360", 2, 3, Days360); // Calculates the number of days between two dates based on a 360-day year  
+ce.RegisterFunction("EDATE", 2, Edate); // Returns the serial number of the date that is the indicated number of months before or after the start date  
+ce.RegisterFunction("EOMONTH", 2, Eomonth); // Returns the serial number of the last day of the month before or after a specified number of months  
+ce.RegisterFunction("HOUR", 1, Hour); // Converts a serial number to an hour  
+ce.RegisterFunction("MINUTE", 1, Minute); // Converts a serial number to a minute  
+ce.RegisterFunction("MONTH", 1, Month); // Converts a serial number to a month  
+ce.RegisterFunction("NETWORKDAYS", 2, 3, Networkdays); // Returns the number of whole workdays between two dates  
+ce.RegisterFunction("NOW", 0, Now); // Returns the serial number of the current date and time  
+ce.RegisterFunction("SECOND", 1, Second); // Converts a serial number to a second  
+ce.RegisterFunction("TIME", 3, Time); // Returns the serial number of a particular time  
+ce.RegisterFunction("TIMEVALUE", 1, Timevalue); // Converts a time in the form of text to a serial number  
+ce.RegisterFunction("TODAY", 0, Today); // Returns the serial number of today's date  
+ce.RegisterFunction("WEEKDAY", 1, 2, Weekday); // Converts a serial number to a day of the week  
+ce.RegisterFunction("WEEKNUM", 1, 2, Weeknum); // Converts a serial number to a number representing where the week falls numerically with a year  
+ce.RegisterFunction("WORKDAY", 2, 3, Workday); // Returns the serial number of the date before or after a specified number of workdays  
+ce.RegisterFunction("YEAR", 1, Year); // Converts a serial number to a year  
+ce.RegisterFunction("YEARFRAC", 2, 3, Yearfrac); // Returns the year fraction representing the number of whole days between start_date and end_date  
+ce.RegisterFunction("AND", 1, int.MaxValue, And);  
+ce.RegisterFunction("OR", 1, int.MaxValue, Or);  
+ce.RegisterFunction("NOT", 1, Not);  
+ce.RegisterFunction("IF", 3, If);  
+ce.RegisterFunction("TRUE", 0, True);  
+ce.RegisterFunction("FALSE", 0, False);  
+ce.RegisterFunction("ABS", 1, Abs);  
+ce.RegisterFunction("ACOS", 1, Acos);  
+ce.RegisterFunction("ACOSH", 1, Acosh);  
+ce.RegisterFunction("ASIN", 1, Asin);  
+ce.RegisterFunction("ASINH", 1, Asinh);  
+ce.RegisterFunction("ATAN", 1, Atan);  
+ce.RegisterFunction("ATAN2", 2, Atan2);  
+ce.RegisterFunction("ATANH", 1, Atanh);  
+ce.RegisterFunction("CEILING", 1, Ceiling);  
+ce.RegisterFunction("COMBIN", 2, Combin);  
+ce.RegisterFunction("COS", 1, Cos);  
+ce.RegisterFunction("COSH", 1, Cosh);  
+ce.RegisterFunction("DEGREES", 1, Degrees);  
+ce.RegisterFunction("EVEN", 1, Even);  
+ce.RegisterFunction("EXP", 1, Exp);  
+ce.RegisterFunction("FACT", 1, Fact);  
+ce.RegisterFunction("FACTDOUBLE", 1, FactDouble);  
+ce.RegisterFunction("FLOOR", 1, Floor);  
+ce.RegisterFunction("GCD", 1, 255, Gcd);  
+ce.RegisterFunction("INT", 1, Int);  
+ce.RegisterFunction("LCM", 1, 255, Lcm);  
+ce.RegisterFunction("LN", 1, Ln);  
+ce.RegisterFunction("LOG", 1, 2, Log);  
+ce.RegisterFunction("LOG10", 1, Log10);  
+ce.RegisterFunction("MDETERM", 1, MDeterm);  
+ce.RegisterFunction("MINVERSE", 1, MInverse);  
+ce.RegisterFunction("MMULT", 2, MMult);  
+ce.RegisterFunction("MOD", 2, Mod);  
+ce.RegisterFunction("MROUND", 2, MRound);  
+ce.RegisterFunction("MULTINOMIAL", 1, 255, Multinomial);  
+ce.RegisterFunction("ODD", 1, Odd);  
+ce.RegisterFunction("PI", 0, Pi);  
+ce.RegisterFunction("POWER", 2, Power);  
+ce.RegisterFunction("PRODUCT", 1, 255, Product);  
+ce.RegisterFunction("QUOTIENT", 2, Quotient);  
+ce.RegisterFunction("RADIANS", 1, Radians);  
+ce.RegisterFunction("RAND", 0, Rand);  
+ce.RegisterFunction("RANDBETWEEN", 2, RandBetween);  
+ce.RegisterFunction("ROMAN", 1, 2, Roman);  
+ce.RegisterFunction("ROUND", 2, Round);  
+ce.RegisterFunction("ROUNDDOWN", 2, RoundDown);  
+ce.RegisterFunction("ROUNDUP", 1, 2, RoundUp);  
+ce.RegisterFunction("SERIESSUM", 4, SeriesSum);  
+ce.RegisterFunction("SIGN", 1, Sign);  
+ce.RegisterFunction("SIN", 1, Sin);  
+ce.RegisterFunction("SINH", 1, Sinh);  
+ce.RegisterFunction("SQRT", 1, Sqrt);  
+ce.RegisterFunction("SQRTPI", 1, SqrtPi);  
+ce.RegisterFunction("SUBTOTAL", 2, 255, Subtotal);  
+ce.RegisterFunction("SUM", 1, int.MaxValue, Sum);  
+ce.RegisterFunction("SUMIF", 2, 3, SumIf);  
+ce.RegisterFunction("SUMSQ", 1, 255, SumSq);  
+ce.RegisterFunction("TAN", 1, Tan);  
+ce.RegisterFunction("TANH", 1, Tanh);  
+ce.RegisterFunction("TRUNC", 1, Trunc);  
+ce.RegisterFunction("AVERAGE", 1, int.MaxValue, Average);  
+ce.RegisterFunction("AVERAGEA", 1, int.MaxValue, AverageA);  
+ce.RegisterFunction("COUNT", 1, int.MaxValue, Count);  
+ce.RegisterFunction("COUNTA", 1, int.MaxValue, CountA);  
+ce.RegisterFunction("COUNTBLANK", 1, int.MaxValue, CountBlank);  
+ce.RegisterFunction("COUNTIF", 2, CountIf);  
+ce.RegisterFunction("MAX", 1, int.MaxValue, Max);  
+ce.RegisterFunction("MAXA", 1, int.MaxValue, MaxA);  
+ce.RegisterFunction("MIN", 1, int.MaxValue, Min);  
+ce.RegisterFunction("MINA", 1, int.MaxValue, MinA);  
+ce.RegisterFunction("STDEV", 1, int.MaxValue, StDev);  
+ce.RegisterFunction("STDEVA", 1, int.MaxValue, StDevA);  
+ce.RegisterFunction("STDEVP", 1, int.MaxValue, StDevP);  
+ce.RegisterFunction("STDEVPA", 1, int.MaxValue, StDevPA);  
+ce.RegisterFunction("VAR", 1, int.MaxValue, Var);  
+ce.RegisterFunction("VARA", 1, int.MaxValue, VarA);  
+ce.RegisterFunction("VARP", 1, int.MaxValue, VarP);  
+ce.RegisterFunction("VARPA", 1, int.MaxValue, VarPA);  
+ce.RegisterFunction("ASC", 1, Asc); // Changes full-width (double-byte) English letters or katakana within a character string to half-width (single-byte) characters  
+ce.RegisterFunction("CHAR", 1, _Char); // Returns the character specified by the code number  
+ce.RegisterFunction("CLEAN", 1, Clean); // Removes all nonprintable characters from text  
+ce.RegisterFunction("CODE", 1, Code); // Returns a numeric code for the first character in a text string  
+ce.RegisterFunction("CONCATENATE", 1, int.MaxValue, Concat); // Joins several text items into one text item  
+ce.RegisterFunction("DOLLAR", 1, 2, Dollar); // Converts a number to text, using the $ (dollar) currency format  
+ce.RegisterFunction("EXACT", 2, Exact); // Checks to see if two text values are identical  
+ce.RegisterFunction("FIND", 2, 3, Find); //Finds one text value within another (case-sensitive)  
+ce.RegisterFunction("FIXED", 1, 3, Fixed); // Formats a number as text with a fixed number of decimals  
+ce.RegisterFunction("LEFT", 1, 2, Left); // LEFTB Returns the leftmost characters from a text value  
+ce.RegisterFunction("LEN", 1, Len); //, Returns the number of characters in a text string  
+ce.RegisterFunction("LOWER", 1, Lower); // Converts text to lowercase  
+ce.RegisterFunction("MID", 3, Mid); // Returns a specific number of characters from a text string starting at the position you specify  
+ce.RegisterFunction("PROPER", 1, Proper); // Capitalizes the first letter in each word of a text value  
+ce.RegisterFunction("REPLACE", 4, Replace); // Replaces characters within text  
+ce.RegisterFunction("REPT", 2, Rept); // Repeats text a given number of times  
+ce.RegisterFunction("RIGHT", 1, 2, Right); // Returns the rightmost characters from a text value  
+ce.RegisterFunction("SEARCH", 2, Search); // Finds one text value within another (not case-sensitive)  
+ce.RegisterFunction("SUBSTITUTE", 3, 4, Substitute); // Substitutes new text for old text in a text string  
+ce.RegisterFunction("T", 1, T); // Converts its arguments to text  
+ce.RegisterFunction("TEXT", 2, _Text); // Formats a number and converts it to text  
+ce.RegisterFunction("TRIM", 1, Trim); // Removes spaces from text  
+ce.RegisterFunction("UPPER", 1, Upper); // Converts text to uppercase  
+ce.RegisterFunction("VALUE", 1, Value); // Converts a text argument to a number  
+ce.RegisterFunction("HYPERLINK", 1, Hyperlink);
 ```
