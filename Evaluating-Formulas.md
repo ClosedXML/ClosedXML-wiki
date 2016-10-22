@@ -4,7 +4,7 @@ If you call cell.Value ClosedXML will try to resolve the formula and give you th
 
 For example:  
 
-```
+```c#
 var wb = new XLWorkbook();
 var ws = wb.AddWorksheet("Sheet1");
 ws.Cell("A1").SetValue(1).CellBelow().SetValue(1);
@@ -22,24 +22,21 @@ Assert.AreEqual("The total value is: 4", r.ToString());
 You can even resolve your own formulas without using cells. For Example:  
 
 If you're not referencing a worksheet you can use:  
-```
+```c#
 var sum = XLWorkbook.EvaluateExpr("SUM(1,2,3)");
 // sum = 6
 // SUM(Sheet1!A1:B2) will fail because it doesn't know which workbook to use
-
 ```
 
 If you're not referencing a range without a worksheet you can use:  
-```
+```c#
 var sum = workbook.Evaluate("SUM(Sheet1!A1:B2)");
 // SUM(A1:B2) will fail because it doesn't know which sheet to use
-
 ```
 
 If you have the worksheet you can evaluate at your heart's content:  
-```
+```c#
 var sum = worksheet.Evaluate("SUM(A1:B2)");
-
 ```
 
 ## Very important:
