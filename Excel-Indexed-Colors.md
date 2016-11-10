@@ -9,7 +9,8 @@ For an explanation on how to use colors please see [Using Colors](Using-Colors)
 <td>Html Color</td>
 </tr>
 <tr>
-<td width="75px" style="background-color:#000000"> </td>
+<td width="75px" style="background-color:#000000" bgcolor="red">
+<img  width="75" height="75" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="></td>
 <td>0</td>
 <td>Black</td>
 <td>#FF000000</td>
