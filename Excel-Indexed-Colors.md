@@ -6,7 +6,7 @@ For an explanation on how to use colors please see [Using Colors](Using-Colors)
 <td>Color</td><td>Color Index</td><td>Color Name</td><td>Html Color</td>
 </tr>
 <tr>
-<td width="75px"><img width="25" height="25" src="https://dummyimage.com/1x1/000000/000000.png"/> </td><td>1</td><td>Black</td><td>#FF000000</td>
+<td width="75px"><img width="25" height="25" src="https://dummyimage.com/1x1/000000/000000.png"/> </td><td>0</td><td>Black</td><td>#FF000000</td>
 </tr>
 <tr>
 <td width="75px"><img width="25" height="25" src="https://dummyimage.com/1x1/ffffff/ffffff.png"/> </td><td>1</td><td>White</td><td>#FFFFFFFF</td>
