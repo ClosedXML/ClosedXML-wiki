@@ -15,7 +15,7 @@
 * [Finding and extracting the data](Finding-and-extracting-the-data)
 
 ## Time Savers
-* [Simplifying your life...](Simplifying-your-life...)
+* [Simplifying your life](Simplifying-your-life)
 
 ## Performance and Memory
 * [Turning off events](Turning-off-events)
