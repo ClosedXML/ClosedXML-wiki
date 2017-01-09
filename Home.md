@@ -37,7 +37,7 @@ To use ClosedXML you must reference the DocumentFormat.OpenXml.dll:
 ## Time Savers
 
 
-[Simplifying your life...](Simplifying-your-life...)
+[Simplifying your life](Simplifying-your-life)
 
 ## Performance and Memory
 
