@@ -119,8 +119,8 @@ String timeSpanFormattedString = cellTimeSpan.GetFormattedString();
 ws.Cell(7, 3).Value = timeSpan1;
 ws.Cell(7, 4).Value = timeSpan2;
 ws.Cell(7, 5).Value = timeSpan3;
-ws.Cell(7, 6).Value = timeSpanString;
-ws.Cell(7, 7).Value = timeSpanFormattedString;
+ws.Cell(7, 6).Value = "'" + timeSpanString;
+ws.Cell(7, 7).Value = "'" + timeSpanFormattedString;
 
 //////////////////////////////////////////////////////////////////
 // Do some formatting
