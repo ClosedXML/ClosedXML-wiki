@@ -2,7 +2,7 @@
 
 ![MergingCells.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=147543 "MergingCells.jpg")  
 
-**Creating a new workbook**  
+### Creating merged cells
 ```c#
 var workbook = new XLWorkbook();
 var ws = workbook.Worksheets.Add("Merge Cells");
@@ -28,4 +28,10 @@ ws.Range("B8:D8").Merge();
 ws.Range("B8:D8").Unmerge();
 
 workbook.SaveAs("MergeCells.xlsx");
+```
+
+### Finding the range of merged cells
+```c#
+var mergedRange = ws.MergedRanges.First(r => r.Contains("B4"));
+mergedRange.Style.Fill.BackgroundColor = XLColor.Red;
 ```
