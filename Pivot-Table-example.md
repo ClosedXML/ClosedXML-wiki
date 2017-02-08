@@ -1,3 +1,7 @@
+***
+NOTE: Pivot table support is still very experimental.
+***
+
 In this example, we'll create a pivot table of monthly pastry sales. First, we'll need our Pastry class:  
 ```c#
 public class Pastry
