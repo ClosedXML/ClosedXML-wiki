@@ -1,10 +1,10 @@
 # FAQ
 * [Requirements](Requirements)
 * [How do I deliver an Excel file in ASP.NET?](Deliver-an-Excel-file-in-ASP.NET)
-* [Does it support Excel 2003 and prior formats (.xls)?](Does-it-support-Excel-2003-and-prior-formats-(.xls)%3F)
-* [How can I insert an image?](How-can-I-insert-an-image%3F)
-* [Text with numbers are getting converted to numbers, what's up with that?](Text-with-numbers-are-getting-converted-to-numbers,-what's-up-with-that%3F)
-* [How do I get the result of a formula?](How-do-I-get-the-result-of-a-formula%3F)
+* [Does it support Excel 2003 and prior formats (.xls)?](Does-it-support-Excel-2003-and-prior-formats-(.xls))
+* [How can I insert an image?](How-can-I-insert-an-image)
+* [Text with numbers are getting converted to numbers, what's up with that?](Text-with-numbers-are-getting-converted-to-numbers)
+* [How do I get the result of a formula?](How-do-I-get-the-result-of-a-formula%)
 
 # Examples
 * [Showcase](Showcase)
