@@ -45,3 +45,11 @@ ws.Cell("C1").Value = "Yes";
 ws.Cell("C2").Value = "No";
 ws.Cell("A5").DataValidation.List(ws.Range("C1:C2"));
 ```
+
+**From a List in code**
+```c#
+//Pass a string in this format: "Option1,Option2,Option3"
+var options = new List<string>{"Option1","Option2","Option3"};
+var validOptions = $"\"{String.Join(",", options)}\"";
+ws.Cell(1,1).DataValidation.List(validOptions, true);
+```
