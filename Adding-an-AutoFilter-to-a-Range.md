@@ -11,7 +11,10 @@ ws.Cell("A4").Value = "Dagny";
 
 ws.RangeUsed().SetAutoFilter();
 
-// Your can turn off the autofilter with: worksheet.AutoFilter.Clear()
+// Your can turn off the autofilter by:
+// 1) worksheet.AutoFilter.Clear()
+// 2) worksheet.SetAutoFilter(false)
+// 3) Pick any range in the worksheet and call the above methods on the range
 
 wb.SaveAs("AutoFilter.xlsx");
 ```
