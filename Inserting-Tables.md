@@ -3,7 +3,7 @@ This example shows how to insert data into a worksheet by using the method cell.
 - The difference between InsertData and InsertTable is that InsertData doesn't insert column names and returns a range. InsertTable will insert the column names and returns a table.  
 - You can use the different overloads to specify whether or not to create the Excel table, and the table name.  
 - For more information about tables see [Using Tables](Using-Tables)  
-- (.Net 4 only) When inserting a table from a collection of objects ClosedXML will check for the custom property [Display(Name="Field Name")] and use it for column name if exists. Otherwise it will use the property's name.  
+- (.Net 4 only) When inserting a table from a collection of objects ClosedXML will check for the custom property `[XLColumn(Header="Field Name")]` and use it for column name if exists. Otherwise it will use the property's name.  
 
 ![InsertingTables.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=202111 "InsertingTables.jpg")  
 
