@@ -1,6 +1,6 @@
 ## Selecting Columns of a Range
 
-![ColumnsOfARange.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=152520 "ColumnsOfARange.jpg")  
+![ColumnsOfARange.jpg](images/Selecting-Columns_ColumnsOfARange.jpg "ColumnsOfARange.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();
@@ -35,7 +35,7 @@ ws.Columns("A:V").Width = 3;
 
 ## Selecting Columns of a Worksheet
 
-![ColumnsOfAWorksheet.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=152521 "ColumnsOfAWorksheet.jpg")  
+![ColumnsOfAWorksheet.jpg](images/Selecting-Columns_ColumnsOfAWorksheet.jpg "ColumnsOfAWorksheet.jpg")  
 
 ```c#
 var ws2 = workbook.Worksheets.Add("Columns of a worksheet");

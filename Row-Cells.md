@@ -1,6 +1,6 @@
 ## Row Cells
 
-![RowCells.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=191949 "RowCells.jpg")  
+![RowCells.jpg](images/Row-Cells_RowCells.jpg "RowCells.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();

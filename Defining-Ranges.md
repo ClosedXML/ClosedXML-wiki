@@ -1,4 +1,4 @@
-![DefiningRanges.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=165393 "DefiningRanges.jpg")  
+![DefiningRanges.jpg](images/Defining-Ranges_DefiningRanges.jpg "DefiningRanges.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();

@@ -1,4 +1,4 @@
-![Outline.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=166428 "Outline.jpg")  
+![Outlines.jpg](images/Creating-Rows-And-Columns_Outlines.jpg "Outlines.jpg")
 
 ```c#
 var wb = new XLWorkbook();

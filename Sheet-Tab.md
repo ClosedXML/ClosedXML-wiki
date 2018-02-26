@@ -1,4 +1,4 @@
-![SheetTab.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=152094 "SheetTab.jpg")  
+![SheetTab.jpg](images/Sheet-Tab_SheetTab.jpg "SheetTab.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();

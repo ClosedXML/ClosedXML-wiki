@@ -1,4 +1,4 @@
-![Position.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=320480 "Position.jpg")  
+![Position.jpg](images/Comments-Position_Position.jpg "Position.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

@@ -5,7 +5,7 @@ var ws = wb.Worksheets.Add("Workbook Properties");
 
 **Predefined Properties:**  
 
-![WorkbookProperties.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=165385 "WorkbookProperties.jpg")  
+![WorkbookProperties.jpg](images/Workbook-Properties_WorkbookProperties.jpg "WorkbookProperties.jpg")  
 
 ```c#
 wb.Properties.Author = "theAuthor";
@@ -22,7 +22,7 @@ wb.Properties.Manager = "theManager";
 
 **Custom Properties:**  
 
-![WorkbookProperties1.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=202032 "WorkbookProperties1.jpg")  
+![WorkbookProperties1.jpg](images/Workbook-Properties_WorkbookProperties1.jpg "WorkbookProperties1.jpg")  
 
 ```c#
 wb.CustomProperties.Add("theText", "XXX");

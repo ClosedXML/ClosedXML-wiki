@@ -1,4 +1,4 @@
-![TabColors.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=243483 "TabColors.jpg")  
+![TabColors.jpg](images/Tab-Colors_TabColors.jpg "TabColors.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

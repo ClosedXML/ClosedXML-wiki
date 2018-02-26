@@ -5,7 +5,7 @@ This example shows how to insert data into a worksheet by using the method cell.
 - For more information about tables see [Using Tables](Using-Tables)  
 - (.Net 4 only) When inserting a table from a collection of objects ClosedXML will check for the custom property `[XLColumn(Header="Field Name")]` and use it for column name if exists. Otherwise it will use the property's name.  
 
-![InsertingTables.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=202111 "InsertingTables.jpg")  
+![InsertingTables.jpg](images/Inserting-Tables_InsertingTables.jpg "InsertingTables.jpg")  
 
 ```c#
 public void Create()

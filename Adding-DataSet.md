@@ -9,7 +9,7 @@ wb.Worksheets.Add(dataSet);
 wb.SaveAs("AddingDataSet.xlsx");
 ```
 
-![AddingDataSet.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=243018 "AddingDataSet.jpg")  
+![AddingDataSet.jpg](images/Adding-DataSet_AddingDataSet.jpg "AddingDataSet.jpg")  
 
 ```c#
 private DataSet GetDataSet()

@@ -6,7 +6,7 @@ var wsActiveCell = wb.AddWorksheet("Set Active Cell");
 wsActiveCell.Cell("B2").SetActive();
 ```
 
-![SelectCell.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=472832 "SelectCell.jpg")  
+![SelectCell.jpg](images/Selecting-Cells-and-Ranges_SelectCell.jpg "SelectCell.jpg")  
 
 ## Select cells and ranges
 
@@ -17,4 +17,4 @@ wsSelectMisc.Range("D2:E2").Select();
 wsSelectMisc.Ranges("C3, D4:E5").Select();
 ```
 
-![SelectRanges.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=472833 "SelectRanges.jpg")  
+![SelectRanges.jpg](images/Selecting-Cells-and-Ranges_SelectRanges.jpg "SelectRanges.jpg")  

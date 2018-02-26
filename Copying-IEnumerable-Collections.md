@@ -1,6 +1,6 @@
 This example shows how to insert data into a worksheet by setting cell.Value = collection  
 
-![Collections.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=177518 "Collections.jpg")  
+![Collections.jpg](images/Copying-IEnumerable-Collections_Collections.jpg "Collections.jpg")  
 
 ```c#
 public void Create()

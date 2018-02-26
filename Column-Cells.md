@@ -1,4 +1,4 @@
-![ColumnCells.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=191948 "ColumnCells.jpg")  
+![ColumnCells.jpg](images/Column-Cells_ColumnCells.jpg "ColumnCells.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();

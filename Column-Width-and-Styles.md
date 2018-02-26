@@ -1,4 +1,4 @@
-![ColumnSettings.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=147548 "ColumnSettings.jpg")  
+![ColumnSettings.jpg](images/Column-Width-and-Styles_ColumnSettings.jpg "ColumnSettings.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();

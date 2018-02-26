@@ -73,7 +73,7 @@ To use ClosedXML you must reference the DocumentFormat.OpenXml.dll:
 
 [Creating Rows And Columns Outlines](Creating-Rows-And-Columns-Outlines)
 
-[Hide Unhide Row(s) And Column(s)](Hide-Unhide-Row(s)-And-Column(s))
+[Hide Unhide Rows And Columns](Hide-Unhide-Rows-And-Columns)
 
 [Freeze Panes](Freeze-Panes)
 

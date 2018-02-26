@@ -1,4 +1,4 @@
-![ColorsAndLines.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=320483 "ColorsAndLines.jpg")  
+![ColorsAndLines.jpg](images/Comments-Style-Colors-and-Lines_ColorsAndLines.jpg "ColorsAndLines.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

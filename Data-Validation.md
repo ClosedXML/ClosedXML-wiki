@@ -5,7 +5,7 @@ var ws = wb.Worksheets.Add("Data Validation");
 
 **Decimal between 1 and 5**  
 
-[image:DataValidation1.jpg]  
+![DataValidation1.jpg](images/Data-Validation_DataValidation1.jpg "DataValidation1.jpg")
 
 ```c#
 ws.Cell(1, 1).DataValidation.Decimal.Between(1, 5);
@@ -13,7 +13,7 @@ ws.Cell(1, 1).DataValidation.Decimal.Between(1, 5);
 
 **Whole number equals 2, use an error message**  
 
-[image:DataValidation2.jpg]  
+![DataValidation2.jpg](images/Data-Validation_DataValidation2.jpg "DataValidation2.jpg")
 
 ```c#
 var dv1 = ws.Range("A2:A3").DataValidation;
@@ -26,7 +26,8 @@ dv1.ErrorMessage = "This cell only allows the number 2.";
 
 **Date after the millenium, use an input message**  
 
-[image:DataValidation3.jpg] [image:DataValidation5.jpg]  
+![DataValidation3.jpg](images/Data-Validation_DataValidation3.jpg "DataValidation3.jpg")
+![DataValidation5.jpg](images/Data-Validation_DataValidation5.jpg "DataValidation5.jpg")
 
 ```c#
 var dv2 = ws.Cell("A4").DataValidation;
@@ -38,7 +39,7 @@ dv2.InputMessage = "Please enter a date in this century.";
 
 **From a list**  
 
-[image:DataValidation4.jpg]  
+![DataValidation4.jpg](images/Data-Validation_DataValidation4.jpg "DataValidation4.jpg")
 
 ```c#
 ws.Cell("C1").Value = "Yes";

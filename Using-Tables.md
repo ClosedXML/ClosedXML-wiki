@@ -1,10 +1,10 @@
 We start with the following basic table:  
 
-![BasicTable.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=195675 "BasicTable.jpg")  
+![BasicTable.jpg](images/Using-Tables_BasicTable.jpg "BasicTable.jpg")  
 
 And we end up with the following 3 Excel tables:  
 
-![UsingTables.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=195674 "UsingTables.jpg")  
+![UsingTables.jpg](images/Using-Tables_UsingTables.jpg "UsingTables.jpg")  
 
 ```c#
 var wb = new XLWorkbook("BasicTable.xlsx");

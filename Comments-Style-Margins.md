@@ -1,4 +1,4 @@
-![Margins.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=320487 "Margins.jpg")  
+![Margins.jpg](images/Comments-Style-Margins_Margins.jpg "Margins.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

@@ -1,6 +1,6 @@
 ## Page Tab Example 1
 
-![PageTab1.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=151899 "PageTab1.jpg")  
+![PageTab1.jpg](images/Pages-Tab_PageTab1.jpg "PageTab1.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();
@@ -16,7 +16,7 @@ For more information on the paper size enumeration please see the [Paper Size Lo
 
 ## Page Tab Example 2
 
-![PageTab2.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=151898 "PageTab2.jpg")  
+![PageTab2.jpg](images/Pages-Tab_PageTab2.jpg "PageTab2.jpg")  
 
 ```c#
 var ws2 = workbook.Worksheets.Add("Page Setup - Page2");

@@ -1,4 +1,4 @@
-![Protection.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=320485 "Protection.jpg")  
+![Protection.jpg](images/Comments-Style-Protection_Protection.jpg "Protection.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

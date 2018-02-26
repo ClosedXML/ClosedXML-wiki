@@ -1,6 +1,6 @@
 ## Merging Cells
 
-![MergingCells.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=147543 "MergingCells.jpg")  
+![MergingCells.jpg](images/Merging-Cells_MergingCells.jpg "MergingCells.jpg")  
 
 ### Creating merged cells
 ```c#

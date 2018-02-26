@@ -1,8 +1,8 @@
 ## Named Ranges
 
-![NamedRanges1.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=167088 "NamedRanges1.jpg")  
+![NamedRanges1.jpg](images/Named-Ranges_NamedRanges1.jpg "NamedRanges1.jpg")  
 
-![NamedRanges2.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=167089 "NamedRanges2.jpg")  
+![NamedRanges2.jpg](images/Named-Ranges_NamedRanges2.jpg "NamedRanges2.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

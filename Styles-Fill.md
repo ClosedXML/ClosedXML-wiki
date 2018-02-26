@@ -1,4 +1,4 @@
-![Styles_Fill.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=147905 "Styles_Fill.jpg")  
+![Styles_Fill.jpg](images/Styles-Fill_Styles_Fill.jpg "Styles_Fill.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();

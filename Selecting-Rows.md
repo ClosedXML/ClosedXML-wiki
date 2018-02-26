@@ -1,6 +1,6 @@
 ## Selecting Rows of a Range
 
-![RowsOfARange.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=152524 "RowsOfARange.jpg")  
+![RowsOfARange.jpg](images/Selecting-Rows_RowsOfARange.jpg "RowsOfARange.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();
@@ -29,7 +29,7 @@ ws.Rows().Height = 15;
 
 ## Selecting Rows in a Worksheet
 
-![RowsOfAWorksheet.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=152525 "RowsOfAWorksheet.jpg")  
+![RowsOfAWorksheet.jpg](images/Selecting-Rows_RowsOfAWorksheet.jpg "RowsOfAWorksheet.jpg")  
 
 ```c#
 var ws2 = workbook.Worksheets.Add("Rows of a Worksheet");

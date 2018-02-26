@@ -1,4 +1,4 @@
-![ClearingRanges.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=151765 "ClearingRanges.jpg")  
+![ClearingRanges.jpg](images/Clearing-Ranges_ClearingRanges.jpg "ClearingRanges.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();

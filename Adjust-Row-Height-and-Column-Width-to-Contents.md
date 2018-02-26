@@ -1,4 +1,4 @@
-![AdjustToContents.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=192404 "AdjustToContents.jpg")  
+![AdjustToContents.jpg](images/Adjust-Row-Height-and-Column-Width-to-Contents_AdjustToContents.jpg "AdjustToContents.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

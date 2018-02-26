@@ -1,4 +1,4 @@
-![BasicTable.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=165397 "BasicTable.jpg")  
+![BasicTable.jpg](images/Basic-Table_BasicTable.jpg "BasicTable.jpg")  
 
 **Creating a new workbook**  
 ```c#

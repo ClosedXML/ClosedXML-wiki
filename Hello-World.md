@@ -1,4 +1,4 @@
-![Hello_World.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=147085 "Hello_World.jpg")  
+![Hello_World.jpg](images/Hello-World_Hello_World.jpg "Hello_World.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();

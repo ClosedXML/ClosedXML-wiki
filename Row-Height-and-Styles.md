@@ -1,4 +1,4 @@
-![RowSettings.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=147555 "RowSettings.jpg")  
+![RowSettings.jpg](images/Row-Height-and-Styles_RowSettings.jpg "RowSettings.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();

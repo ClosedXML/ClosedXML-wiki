@@ -1,4 +1,4 @@
-![Hyperlinks.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=204421 "Hyperlinks.jpg")  
+![Hyperlinks.jpg](images/Using-Hyperlinks_Hyperlinks.jpg "Hyperlinks.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

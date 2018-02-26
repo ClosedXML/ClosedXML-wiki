@@ -1,4 +1,4 @@
-![Showcase.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=195700 "Showcase.jpg")
+![Showcase.jpg](images/Showcase_Showcase.jpg "Showcase.jpg")
 
 **Creating a new workbook**
 

@@ -1,5 +1,6 @@
-![AutoFilter1.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=228107 "AutoFilter1.jpg")  
-![AutoFilter2.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=228108 "AutoFilter2.jpg")  
+![AutoFilter1.jpg](images/Adding-an-AutoFilter-to-a-Range_AutoFilter1.jpg "AutoFilter1.jpg")
+
+![AutoFilter2.jpg](images/Adding-an-AutoFilter-to-a-Range_AutoFilter2.jpg "AutoFilter2.jpg")
 
 ```c#
 var wb = new XLWorkbook();

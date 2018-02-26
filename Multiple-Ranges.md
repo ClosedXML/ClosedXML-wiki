@@ -1,6 +1,6 @@
 ## Handling Multiple Ranges
 
-![MultipleRanges.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=154794 "MultipleRanges.jpg")  
+![MultipleRanges.jpg](images/Multiple-Ranges_MultipleRanges.jpg "MultipleRanges.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();

@@ -10,7 +10,7 @@ wb.SaveAs("AddingDataTableAsWorksheet.xlsx");
 
 ```
 
-![AddingDataTableAsWorksheet.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=243019 "AddingDataTableAsWorksheet.jpg")  
+![AddingDataTableAsWorksheet.jpg](images/Adding-DataTable-as-Worksheet_AddingDataTableAsWorksheet.jpg "AddingDataTableAsWorksheet.jpg")  
 
 ```c#
 private DataTable GetTable(String tableName)

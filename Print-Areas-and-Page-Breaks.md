@@ -1,6 +1,6 @@
 **Separate Print Areas**  
 
-![SeparatePrintAreas.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=152084 "SeparatePrintAreas.jpg")  
+![SeparatePrintAreas.jpg](images/Print-Areas-and-Page-Breaks_SeparatePrintAreas.jpg "SeparatePrintAreas.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();
@@ -11,7 +11,7 @@ ws1.PageSetup.PrintAreas.Add("D3:D5");
 
 **Page Breaks**  
 
-![PageBreaks.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=152085 "PageBreaks.jpg")  
+![PageBreaks.jpg](images/Print-Areas-and-Page-Breaks_PageBreaks.jpg "PageBreaks.jpg")  
 
 ```c#
 var ws2 = workbook.Worksheets.Add("Page Breaks");

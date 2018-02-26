@@ -1,4 +1,4 @@
-![Signatures.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=320481 "Signatures.jpg")  
+![Signatures.jpg](images/Comments-Signatures_Signatures.jpg "Signatures.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

@@ -1,6 +1,6 @@
 ## Styles - Font
 
-![Styles_Font.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=165392 "Styles_Font.jpg")  
+![Styles_Font.jpg](images/Styles-Font_Styles_Font.jpg "Styles_Font.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();

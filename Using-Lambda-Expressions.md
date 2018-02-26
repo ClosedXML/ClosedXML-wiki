@@ -1,6 +1,6 @@
 We start with the basic table:  
 
-![BasicTable.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=162281 "BasicTable.jpg")  
+![BasicTable.jpg](images/Using-Lambda-Expressions_BasicTable.jpg "BasicTable.jpg")  
 
 ```c#
 var workbook = new XLWorkbook("BasicTable.xlsx");
@@ -27,4 +27,4 @@ workbook.SaveAs("LambdaExpressions.xlsx");
 
 And we end up with the following table:  
 
-![LambdaExpressions.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=162282 "LambdaExpressions.jpg")
+![LambdaExpressions.jpg](images/Using-Lambda-Expressions_LambdaExpressions.jpg "LambdaExpressions.jpg")

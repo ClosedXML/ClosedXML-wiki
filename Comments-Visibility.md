@@ -1,4 +1,4 @@
-![Visibility.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=320479 "Visibility.jpg")  
+![Visibility.jpg](images/Comments-Visibility_Visibility.jpg "Visibility.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

@@ -8,7 +8,7 @@ foreach (var wsNum in Enumerable.Range(1, 5))
 
 ```
 
-![OrganizingSheets1.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=202079 "OrganizingSheets1.jpg")  
+![OrganizingSheets1.jpg](images/Organizing-Sheets_OrganizingSheets1.jpg "OrganizingSheets1.jpg")  
 
 And now let's play with their order:  
 
@@ -25,4 +25,4 @@ wb.Worksheet(2).Position = 1;
 wb.SaveAs("OrganizingSheets.xlsx");
 ```
 
-![OrganizingSheets2.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=202080 "OrganizingSheets2.jpg")
+![OrganizingSheets2.jpg](images/Organizing-Sheets_OrganizingSheets2.jpg "OrganizingSheets2.jpg")

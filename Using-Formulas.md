@@ -1,4 +1,4 @@
-![Formulas.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=216551 "Formulas.jpg")  
+![Formulas.jpg](images/Using-Formulas_Formulas.jpg "Formulas.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

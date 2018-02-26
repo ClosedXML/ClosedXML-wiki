@@ -1,6 +1,6 @@
 **Range of numbers**  
 
-![cfRange.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=363983 "cfRange.jpg")  
+![cfRange.jpg](images/Conditional-Formatting_cfRange.jpg "cfRange.jpg")  
 ```c#
 var workbook = new XLWorkbook();
 var ws = workbook.AddWorksheet("Sheet1");
@@ -18,7 +18,7 @@ ws.RangeUsed().AddConditionalFormat().WhenBetween(2, 3)
 
 **Color Scale**  
 
-![cfColorScale.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=363980 "cfColorScale.jpg")  
+![cfColorScale.jpg](images/Conditional-Formatting_cfColorScale.jpg "cfColorScale.jpg")  
 ```
 var workbook = new XLWorkbook();
 var ws = workbook.AddWorksheet("Sheet1");
@@ -35,7 +35,7 @@ ws.RangeUsed().AddConditionalFormat().ColorScale()
   .HighestValue(XLColor.Green);
 ```
 
-![cfIconSet.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=363982 "cfIconSet.jpg")  
+![cfIconSet.jpg](images/Conditional-Formatting_cfIconSet.jpg "cfIconSet.jpg")  
 ```
 var workbook = new XLWorkbook();
 var ws = workbook.AddWorksheet("Sheet1");
@@ -52,7 +52,7 @@ ws.RangeUsed().AddConditionalFormat().IconSet(XLIconSetStyle.ThreeTrafficLights2
   .AddValue(XLCFIconSetOperator.EqualOrGreaterThan, 3, XLCFContentType.Number);
 ```
 
-![cfDataBar.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=363981 "cfDataBar.jpg")  
+![cfDataBar.jpg](images/Conditional-Formatting_cfDataBar.jpg "cfDataBar.jpg")  
 ```
 var workbook = new XLWorkbook();
 var ws = workbook.AddWorksheet("Sheet1");

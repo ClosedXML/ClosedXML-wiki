@@ -1,4 +1,4 @@
-![Styles_NumberFormat.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=147280 "Styles_NumberFormat.jpg")  
+![Styles_NumberFormat.jpg](images/Styles-NumberFormat_Styles_NumberFormat.jpg "Styles_NumberFormat.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();

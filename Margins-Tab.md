@@ -1,4 +1,4 @@
-![Margins.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=151901 "Margins.jpg")  
+![Margins.jpg](images/Margins-Tab_Margins.jpg "Margins.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();

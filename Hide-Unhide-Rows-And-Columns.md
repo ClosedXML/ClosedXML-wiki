@@ -1,5 +1,6 @@
-![HideUnhide.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=166426 "HideUnhide.jpg")  
-(Rows 1 and 3, and columns A and C are hidden)  
+![HideUnhide.jpg](images/Hide-Unhide-Rows-And-Columns_HideUnhide.jpg "HideUnhide.jpg")
+
+(Rows 1 and 3, and columns A and C are hidden)
 
 ```c#
 var wb = new XLWorkbook();

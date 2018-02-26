@@ -34,7 +34,7 @@
 * [Using Formulas](Using-Formulas)
 * [Evaluating Formulas](Evaluating-Formulas)
 * [Creating Rows And Columns Outlines](Creating-Rows-And-Columns-Outlines)
-* [Hide Unhide Row(s) And Column(s)](Hide-Unhide-Row(s)-And-Column(s))
+* [Hide Unhide Rows And Columns](Hide-Unhide-Rows-And-Columns)
 * [Freeze Panes](Freeze-Panes)
 * [Copying Worksheets](Copying-Worksheets)
 * [Using Hyperlinks](Using-Hyperlinks)

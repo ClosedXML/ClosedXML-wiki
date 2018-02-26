@@ -1,10 +1,10 @@
-![CustomAutoFilter1.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=301323 "CustomAutoFilter1.jpg")  
+![CustomAutoFilter1.jpg](images/Custom-Filters_CustomAutoFilter1.jpg "CustomAutoFilter1.jpg")  
 
-![CustomAutoFilter2.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=301324 "CustomAutoFilter2.jpg")  
+![CustomAutoFilter2.jpg](images/Custom-Filters_CustomAutoFilter2.jpg "CustomAutoFilter2.jpg")  
 
-![CustomAutoFilter3.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=301325 "CustomAutoFilter3.jpg")  
+![CustomAutoFilter3.jpg](images/Custom-Filters_CustomAutoFilter3.jpg "CustomAutoFilter3.jpg")  
 
-![CustomAutoFilter4.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=301326 "CustomAutoFilter4.jpg")  
+![CustomAutoFilter4.jpg](images/Custom-Filters_CustomAutoFilter4.jpg "CustomAutoFilter4.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

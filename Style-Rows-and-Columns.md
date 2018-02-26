@@ -1,4 +1,4 @@
-![StyleRowsColumns.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=154798 "StyleRowsColumns.jpg")  
+![StyleRowsColumns.jpg](images/Style-Rows-and-Columns_StyleRowsColumns.jpg "StyleRowsColumns.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();

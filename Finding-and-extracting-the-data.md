@@ -1,6 +1,6 @@
 Suppose we'll get a worksheet similar to the following:  
 
-![NorthwindData.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=257068 "NorthwindData.jpg")  
+![NorthwindData.jpg](images/Finding-and-extracting-the-data_NorthwindData.jpg "NorthwindData.jpg")  
 
 Scenario:  
 

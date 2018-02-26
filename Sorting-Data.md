@@ -4,7 +4,7 @@ var wb = new XLWorkbook();
 
 **Sort a simple range**  
 
-![SortSimple.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=229525 "SortSimple.jpg")  
+![SortSimple.jpg](images/Sorting-Data_SortSimple.jpg "SortSimple.jpg")  
 
 ```c#
 var wsSimple = wb.Worksheets.Add("Simple");
@@ -20,7 +20,7 @@ wsSimple.Cell(1, 1).SetValue(".Sort() = Sort Range Top to Bottom, Ascendingly, I
 
 **Sort a simple column**  
 
-![SortSimpleColumn.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=229526 "SortSimpleColumn.jpg")  
+![SortSimpleColumn.jpg](images/Sorting-Data_SortSimpleColumn.jpg "SortSimpleColumn.jpg")  
 
 ```c#
 var wsSimpleColumn = wb.Worksheets.Add("Simple Column");
@@ -38,7 +38,7 @@ wsSimpleColumn.Cell(1, 1)
 
 **Complex Sort 1**  
 
-![SortComplex1.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=229527 "SortComplex1.jpg")  
+![SortComplex1.jpg](images/Sorting-Data_SortComplex1.jpg "SortComplex1.jpg")  
 
 ```c#
 var wsComplex1 = wb.Worksheets.Add("Complex 1");
@@ -55,7 +55,7 @@ wsComplex1.Cell(1, 1)
 
 **Complex Sort 2**  
 
-![SortComplex2.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=229528 "SortComplex2.jpg")  
+![SortComplex2.jpg](images/Sorting-Data_SortComplex2.jpg "SortComplex2.jpg")  
 
 ```c#
 var wsComplex2 = wb.Worksheets.Add("Complex 2");
@@ -78,7 +78,7 @@ wsComplex2.Cell(3, 1)
 
 **Sort Left to Right**  
 
-![SortLeftToRight.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=229530 "SortLeftToRight.jpg")  
+![SortLeftToRight.jpg](images/Sorting-Data_SortLeftToRight.jpg "SortLeftToRight.jpg")  
 
 ```c#
 var wsLeftToRight = wb.Worksheets.Add("Sort Left to Right");
@@ -97,7 +97,7 @@ wsLeftToRight.Cell(1, 1)
 
 **Sort Table**  
 
-![SortTable.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=229531 "SortTable.jpg")  
+![SortTable.jpg](images/Sorting-Data_SortTable.jpg "SortTable.jpg")  
 
 ```c#
 var wsTable = wb.Worksheets.Add("Table");

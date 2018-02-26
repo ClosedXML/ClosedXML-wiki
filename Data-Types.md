@@ -1,4 +1,4 @@
-[image:DataTypes.jpg]  
+![DataTypes.jpg](images/Data-Types_DataTypes.jpg "DataTypes.jpg")
 
 ```c#
 var workbook = new XLWorkbook();

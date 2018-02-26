@@ -1,4 +1,4 @@
-![Web.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=320488 "Web.jpg")  
+![Web.jpg](images/Comments-Style-Web_Web.jpg "Web.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

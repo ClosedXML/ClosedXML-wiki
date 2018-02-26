@@ -1,4 +1,4 @@
-![Alignment.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=320482 "Alignment.jpg")  
+![Alignment.jpg](images/Comments-Style-Alignment_Alignment.jpg "Alignment.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

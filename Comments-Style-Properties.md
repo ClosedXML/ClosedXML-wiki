@@ -1,4 +1,4 @@
-![Properties.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=320486 "Properties.jpg")  
+![Properties.jpg](images/Comments-Style-Properties_Properties.jpg "Properties.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

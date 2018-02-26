@@ -1,10 +1,10 @@
 You can create XLColor objects in a variety of ways. You can select one of the many [ClosedXML Predefined Colors](ClosedXML-Predefined-Colors), or you can create your own with one of the following methods:  
 
-![UsingColors2.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=189705 "UsingColors2.jpg")  
+![UsingColors2.jpg](images/Using-Colors_UsingColors2.jpg "UsingColors2.jpg")  
 
 Here's an example on how to work with colors:  
 
-![UsingColors1.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=198211 "UsingColors1.jpg")  
+![UsingColors1.jpg](images/Using-Colors_UsingColors1.jpg "UsingColors1.jpg")  
 
 ```c#
 var wb = new XLWorkbook();

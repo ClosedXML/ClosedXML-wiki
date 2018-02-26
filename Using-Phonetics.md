@@ -1,4 +1,4 @@
-![UsingPhonetics.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=253930 "UsingPhonetics.jpg")  
+![UsingPhonetics.jpg](images/Using-Phonetics_UsingPhonetics.jpg "UsingPhonetics.jpg")  
 
 Phonetics are implemented as part of the Rich Text functionality. For more information see [Using Rich Text](Using-Rich-Text)  
 

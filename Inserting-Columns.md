@@ -12,7 +12,7 @@ foreach (var r in Enumerable.Range(1, 5))
     ws.Cell(r, c).Value = "X";
 ```
 
-![InsertingColumnsInitial.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=160660 "InsertingColumnsInitial.jpg")  
+![InsertingColumnsInitial.jpg](images/Inserting-Columns_InsertingColumnsInitial.jpg "InsertingColumnsInitial.jpg")  
 
 **Now let's play inserting rows to the worksheet and ranges**  
 ```c#
@@ -34,4 +34,4 @@ ws.Range("B4:D4").InsertColumnsBefore(2);
 workbook.SaveAs("InsertingColumns.xlsx");
 ```
 
-![InsertingColumnsFinal.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=160661 "InsertingColumnsFinal.jpg")
+![InsertingColumnsFinal.jpg](images/Inserting-Columns_InsertingColumnsFinal.jpg "InsertingColumnsFinal.jpg")

@@ -1,11 +1,11 @@
-![HeaderFooter1.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=152063 "HeaderFooter1.jpg")  
+![HeaderFooter1.jpg](images/Headers-and-Footers-Tab_HeaderFooter1.jpg "HeaderFooter1.jpg")  
 
 **Note 1**  
 There is no option to turn on/off the "Different odd and even pages" or "Different first page". This is because ClosedXML always uses all headers even if it leaves them blank.  
 
 **Adding custom text:**  
 
-![HeaderFooter5.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=243015 "HeaderFooter5.jpg")  
+![HeaderFooter5.jpg](images/Headers-and-Footers-Tab_HeaderFooter5.jpg "HeaderFooter5.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();
@@ -35,7 +35,7 @@ ws.PageSetup.Header.Right.AddText("Page", XLHFOccurrence.FirstPage)
 
 **Adding predefined header/footer text:**  
 
-![HeaderFooter3.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=152065 "HeaderFooter3.jpg")  
+![HeaderFooter3.jpg](images/Headers-and-Footers-Tab_HeaderFooter3.jpg "HeaderFooter3.jpg")  
 
 ```c#
 // Let's put the current page number and total pages on the center of every footer:
@@ -44,7 +44,7 @@ ws.PageSetup.Footer.Center.AddText(" / ", XLHFOccurrence.AllPages);
 ws.PageSetup.Footer.Center.AddText(XLHFPredefinedText.NumberOfPages, XLHFOccurrence.AllPages);
 ```
 
-![HeaderFooter4.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=152066 "HeaderFooter4.jpg")  
+![HeaderFooter4.jpg](images/Headers-and-Footers-Tab_HeaderFooter4.jpg "HeaderFooter4.jpg")  
 
 ```c#
 // Let's put the full path to the file on the right footer of every odd page:

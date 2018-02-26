@@ -3,7 +3,7 @@
 var workbook = new XLWorkbook("BasicTable.xlsx");
 ```
 
-![BasicTable.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=153032 "BasicTable.jpg")  
+![BasicTable.jpg](images/Loading-and-Modifying-Files_BasicTable.jpg "BasicTable.jpg")  
 
 **Modifying the workbook:**  
 ```c#
@@ -26,7 +26,7 @@ foreach (var cell in rngNumbers.Cells())
 }
 ```
 
-![BasicTableModified.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=153033 "BasicTableModified.jpg")  
+![BasicTableModified.jpg](images/Loading-and-Modifying-Files_BasicTableModified.jpg "BasicTableModified.jpg")  
 
 **Saving the workbook:**  
 ```c#

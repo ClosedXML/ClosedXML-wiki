@@ -1,4 +1,4 @@
-![MultipleSheets.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=149611 "MultipleSheets.jpg")  
+![MultipleSheets.jpg](images/Creating-Multiple-Worksheets_MultipleSheets.jpg "MultipleSheets.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();

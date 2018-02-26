@@ -8,7 +8,7 @@ var ws = wb.Worksheets.Add("Rich Text");
 var cell1 = ws.Cell(1, 1).SetValue("The show must go on...");
 ```
 
-![RichText1.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=253919 "RichText1.jpg")  
+![RichText1.jpg](images/Using-Rich-Text_RichText1.jpg "RichText1.jpg")  
 
 **We want everything in blue except the word show (which we want in red and with Broadway Font)**  
 ```c#
@@ -18,7 +18,7 @@ cell1.RichText.Substring(4, 4)
   .SetFontName("Broadway"); // Set the color and font for the word "show"
 ```
 
-![RichText2.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=253920 "RichText2.jpg")  
+![RichText2.jpg](images/Using-Rich-Text_RichText2.jpg "RichText2.jpg")  
 
 **On the next example we'll start with an empty cell and add the rich text**  
 ```c#
@@ -31,14 +31,14 @@ cell.RichText
   .AddText("World").SetFontColor(XLColor.Red);
 ```
 
-![RichText3.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=253921 "RichText3.jpg")  
+![RichText3.jpg](images/Using-Rich-Text_RichText3.jpg "RichText3.jpg")  
 
 **Here we're showing that even though we added three pieces of text you can treat them like a single one.**  
 ```c#
 cell.RichText.Substring(4, 7).SetUnderline();
 ```
 
-![RichText4.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=253922 "RichText4.jpg")  
+![RichText4.jpg](images/Using-Rich-Text_RichText4.jpg "RichText4.jpg")  
 
 **Right now cell.RichText has the following 5 strings:**
 
@@ -57,7 +57,7 @@ foreach (var richText in cell.RichText)
 }
 ```
 
-![RichText5.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=253923 "RichText5.jpg")  
+![RichText5.jpg](images/Using-Rich-Text_RichText5.jpg "RichText5.jpg")  
 
 ```c#
 ws.Columns().AdjustToContents();

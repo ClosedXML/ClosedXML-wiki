@@ -1,6 +1,6 @@
 ## Styles - Border
 
-![Styles_Border.jpg](http://download-codeplex.sec.s-msft.com/Download?ProjectName=closedxml&DownloadId=147109 "Styles_Border.jpg")  
+![Styles_Border.jpg](images/Styles-Border_Styles_Border.jpg "Styles_Border.jpg")  
 
 ```c#
 var workbook = new XLWorkbook();
