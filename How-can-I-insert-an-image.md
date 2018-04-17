@@ -1,16 +1,19 @@
-1. `IXLWorksheet.AddPicture` - add picture to worksheet
-2. `IXLPicture.MoveTo` - move picture where you want it to be
+1. `IXLWorksheet.AddPicture` - add a picture to a worksheet
+2. `IXLPicture.MoveTo` - move the picture where you want it to be
 
-``` csharp
-void AddImage(XLWorkbook wb, string sheetName, int col, int row)
+```c#
+using (var wb = new XLWorkbook())
 {
-    if (!File.Exists(ImageLocation)) return;
-    var ws = wb.Worksheet(sheetName);
-    var image = ws.AddPicture(ImageLocation);
-    image.MoveTo(ws.Cell(row, col).Address);
-    image.Scale(.5); // optional: resize picture
-    wb.Save();
+  var ws = wb.AddWorksheet("Sheet1");
+
+  var imagePath = @"c:\path\to\your\image.jpg";
+
+  var image = ws.AddPicture(ImageLocation)
+      .MoveTo(ws.Cell("B3").Address)
+      .Scale(0.5); // optional: resize picture
+      
+  wb.SaveAs("file.xlsx");
 }
 ```
 
-Ability to add picture was added in v0.88
+The ability to add pictures was added in v0.88 of ClosedXML
