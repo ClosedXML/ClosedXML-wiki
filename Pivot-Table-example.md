@@ -47,21 +47,17 @@ var workbook = new XLWorkbook();
 var sheet = workbook.Worksheets.Add("PastrySalesData");
 
 // Insert our list of pastry data into the "PastrySalesData" sheet at cell 1,1
-var source = sheet.Cell(1, 1).InsertTable(pastries, "PastrySalesData", true);
+var table = sheet.Cell(1, 1).InsertTable(pastries, "PastrySalesData", true);
 ```
 
 Finally, we'll use that table as the source for our pivot table:  
 ```c#
-// Create a range that includes our table, including the header row
-var range = source.DataRange;
-var header = sheet.Range(1, 1, 1, 3);
-var dataRange = sheet.Range(header.FirstCell(), range.LastCell());
 
 // Add a new sheet for our pivot table
 var ptSheet = workbook.Worksheets.Add("PivotTable");
 
 // Create the pivot table, using the data from the "PastrySalesData" table
-var pt = ptSheet.PivotTables.AddNew("PivotTable", ptSheet.Cell(1, 1), dataRange);
+var pt = ptSheet.PivotTables.AddNew("PivotTable", ptSheet.Cell(1, 1), table.AsRange());
 
 // The rows in our pivot table will be the names of the pastries
 pt.RowLabels.Add("Name");
