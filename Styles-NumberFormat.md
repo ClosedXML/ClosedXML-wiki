@@ -23,4 +23,4 @@ ws.Column(co).AdjustToContents();
 workbook.SaveAs("StylesNumberFormat.xlsx");
 ```
 
-For more information on NumberFormatId please see [NumberFormatId Lookup Table](NumberFormatId Lookup Table).
+For more information on NumberFormatId please see [NumberFormatId Lookup Table](NumberFormatId-Lookup-Table).
