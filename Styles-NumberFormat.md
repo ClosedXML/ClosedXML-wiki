@@ -18,6 +18,10 @@ ws.Cell(ro, co).Style.NumberFormat.Format = "0000";
 ws.Cell(++ro, co).Value = "12.345";
 ws.Cell(ro, co).Style.NumberFormat.NumberFormatId = 3;
 
+// Use XLPredefinedFormat enum
+ws.Cell(++ro, co).Value = "123456789123";
+ws.Cell(ro, co).Style.NumberFormat.SetNumberFormatId((int)XLPredefinedFormat.Number.Integer);
+
 ws.Column(co).AdjustToContents();
 
 workbook.SaveAs("StylesNumberFormat.xlsx");
