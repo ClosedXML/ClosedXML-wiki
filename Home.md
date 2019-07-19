@@ -83,7 +83,7 @@
 
 [Pivot Table example](Pivot-Table-example)
 
-[Sparklines] (Sparklines)
+[Sparklines](Sparklines)
 
 ## Inserting Data/Tables
 
