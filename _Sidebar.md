@@ -43,7 +43,7 @@
 * [Tab Colors](Tab-Colors)
 * [Conditional Formatting](Conditional-Formatting)
 * [Pivot Table example](Pivot-Table-example)
-* [Sparklines] (Sparklines)
+* [Sparklines](Sparklines)
 
 ## Inserting Data/Tables
 * [Copying IEnumerable Collections](Copying-IEnumerable-Collections)
