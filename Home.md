@@ -1,3 +1,5 @@
+We are gradually transitioning to a new [wiki](https://ClosedXML.readthedocs.io). Thanks, [KnapSac](https://github.com/KnapSac)!
+
 # FAQ
 
 [How do I deliver an Excel file in ASP.NET?](Deliver-an-Excel-file-in-ASP.NET)
