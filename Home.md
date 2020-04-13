@@ -1,4 +1,4 @@
-We are gradually transitioning to a new [wiki](https://ClosedXML.readthedocs.io). Thanks, [KnapSac](https://github.com/KnapSac)!
+We are gradually transitioning to a new [wiki](https://ClosedXML.readthedocs.io).
 
 # FAQ
 
