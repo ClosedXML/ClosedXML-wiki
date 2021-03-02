@@ -57,7 +57,7 @@ Finally, we'll use that table as the source for our pivot table:
 var ptSheet = workbook.Worksheets.Add("PivotTable");
 
 // Create the pivot table, using the data from the "PastrySalesData" table
-var pt = ptSheet.PivotTables.AddNew("PivotTable", ptSheet.Cell(1, 1), table.AsRange());
+var pt = ptSheet.PivotTables.Add("PivotTable", ptSheet.Cell(1, 1), table.AsRange());
 
 // The rows in our pivot table will be the names of the pastries
 pt.RowLabels.Add("Name");
