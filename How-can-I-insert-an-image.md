@@ -9,7 +9,7 @@ using (var wb = new XLWorkbook())
   var imagePath = @"c:\path\to\your\image.jpg";
 
   var image = ws.AddPicture(imagePath)
-      .MoveTo(ws.Cell("B3").Address)
+      .MoveTo(ws.Cell("B3"))
       .Scale(0.5); // optional: resize picture
       
   wb.SaveAs("file.xlsx");
