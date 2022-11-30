@@ -227,7 +227,7 @@ range.Style.NumberFormat.NumberFormatId = #;
 
 <td>47</td>
 
-<td>mmss.0</td>
+<td>mm:ss.0</td>
 
 </tr>
 
